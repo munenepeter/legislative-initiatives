@@ -1,0 +1,234 @@
+[
+	 {
+            "name": "Alternative Investment Fund Managers Directive ",
+            "abbr": "2011/61/EU,AIFMD"
+        },
+        {
+            "name": "Alternative Investment Fund Managers Regulation",
+            "abbr": "231/2013,AIFMR"
+        },
+        {
+            "name": "Anti-Money Laundering Directive ",
+            "abbr": "2015/849,AMLD IV"
+        },
+        {
+            "name": "Anti-Money Laundering Directive ",
+            "abbr": "2018/849,AMLD V"
+        },
+        {
+            "name": "Bank Recovery and Resolution Directive",
+            "abbr": "2014/59/EU,BRRD"
+        },
+		 {
+            "name": "Alternative Investment Fund Managers Directive ",
+            "abbr": "2011/61/EU,AIFMD"
+        },
+        {
+            "name": "Alternative Investment Fund Managers Regulation",
+            "abbr": "231/2013,AIFMR"
+        },
+		 {
+            "name": "Anti-Money Laundering Directive ",
+            "abbr": "2015/849,AMLD IV"
+        },
+        {
+            "name": "Anti-Money Laundering Directive ",
+            "abbr": "2018/849,AMLD V"
+        },
+        {
+            "name": "Bank Recovery and Resolution Directive",
+            "abbr": "2014/59/EU,BRRD"
+        },
+		 {
+            "name": "Benchmark Regulation",
+            "abbr": "2016/2011,BM"
+        },
+        {
+            "name": "Capital Requirement Directive IV ",
+            "abbr": "2013/36/EU,CRD IV"
+        },
+        {
+            "name": "Capital Requirement Regulation",
+            "abbr": "575/2013,CRR"
+        },
+        {
+            "name": "Central Securities Depositories Regulation",
+            "abbr": "909/2014,CSDR"
+        },
+		{
+            "name": "Deposit Gurantee Schemes Directive",
+            "abbr": "2014/49/EU,DGSD"
+        },
+        {
+            "name": "EBA Regulation",
+            "abbr": "1093/2010,"
+        },
+        {
+            "name": "EIOPA Regulation",
+            "abbr": "1094/2010,"
+        },
+        {
+            "name": "E-Money Directive",
+            "abbr": "2009/110/EC,"
+        },
+        {
+            "name": "European Long-term Investment Fund",
+            "abbr": "2015/760,ELTIF"
+        },
+        {
+            "name": "European Market Infrastructure Regulation",
+            "abbr": "648/2012,EMIR"
+        },
+        {
+            "name": "European Securities and Markets Authority",
+            "abbr": "1095/2010,ESMA"
+        },
+        {
+            "name": "Consumer Credit Directive",
+            "abbr": "2008/48/EU,CCD"
+        },
+        {
+            "name": "Credit Rating Agencies Regulation",
+            "abbr": "1060/2009,CRAR"
+        },
+		{
+            "name": "European Social Entrepreneurship Fund ",
+            "abbr": "346/2015,EUSEF"
+        },
+        {
+            "name": "European Systematic Risk Board",
+            "abbr": "1092/2012,ERSB"
+        },
+        {
+            "name": "European Union Venture Capital Funds Regulation",
+            "abbr": "345/2013,EuVECA"
+        },
+        {
+            "name": "Finance Collateral Directive",
+            "abbr": "2002/47/EC,FCD"
+        },
+        {
+            "name": "Funds Transfer Regulation",
+            "abbr": "2015/847,FTR"
+        },
+        {
+            "name": "General Data Protection Regulation",
+            "abbr": "2016/679,GDPR"
+        },
+        {
+            "name": "Institutions for Occupational Retirement Provision",
+            "abbr": "2016/2341,IIROPS"
+        },
+        {
+            "name": "Insurance Distribution Directive ",
+            "abbr": "2016/97,IDD"
+        },
+        {
+            "name": "Interchange Fee Regulation ",
+            "abbr": "2015/751,IFR"
+        },
+        {
+            "name": "Market Abuse Directive",
+            "abbr": "2014/57/EU,MAD"
+        },
+        {
+            "name": "Market Abuse Regulation",
+            "abbr": "596/2014,MAR"
+        },
+        {
+            "name": "Markets in Financial Instruments Directive ",
+            "abbr": "2004/39/EC,MIFID I"
+        },
+        {
+            "name": "Markets in Financial Instruments Directive ",
+            "abbr": "2014/65/EU,MIFID II "
+        },
+		 {
+            "name": "Markets in Financial Instruments Regulation ",
+            "abbr": "600/2014,MIFIR"
+        },
+        {
+            "name": "Money Market Funds Regulation ",
+            "abbr": "2017/1131,MMF"
+        },
+        {
+            "name": "Mortgage Credit Directive",
+            "abbr": "2014/17/EU,MCD"
+        },
+        {
+            "name": "Packaged Retail Insurance Based Investment Products ",
+            "abbr": "1286/2014,PRIIPS"
+        },
+        {
+            "name": "Payment Accounts Directive",
+            "abbr": "2014/92/EU,PAD"
+        },
+        {
+            "name": "Payment Service Directive 2 ",
+            "abbr": "2015/2366,PSD2"
+        },
+        {
+            "name": "Payment Services Directive 1",
+            "abbr": "2007/64/EC,PSD1"
+        },
+        {
+            "name": "Prospectus Directive",
+            "abbr": "2003/71/EU,PD"
+        },
+        {
+            "name": "Prospectus Regulation",
+            "abbr": "2017/1129,PR "
+        },
+        {
+            "name": "Regulation on Wholesale Energy Makret Integrity and Transparency",
+            "abbr": "1227/2011,REMIT"
+        },
+        {
+            "name": "Securities Financing Transaction Regulation",
+            "abbr": "2015/2365,SFTR"
+        },
+        {
+            "name": "Settlement Finality Directive",
+            "abbr": "98/26/EC,SFD"
+        },
+        {
+            "name": "Short Selling Regulation ",
+            "abbr": "236/2012,SSR"
+        },
+		{
+            "name": "Single Resolution Mechanism",
+            "abbr": "806/2014,SRM"
+        },
+        {
+            "name": "Single Supervisory Mechanism ",
+            "abbr": "1024/2013,SSM"
+        },
+        {
+            "name": "Solvency II Directive",
+            "abbr": "2009/138/EC,"
+        },
+        {
+            "name": "transparency Directive",
+            "abbr": "2007/14/EC,TD"
+        },
+        {
+            "name": "Undertakings for Collective Investment in Transferable Securities IV",
+            "abbr": "2009/65/EU,UCITS IV"
+        },
+        {
+            "name": "Statutory Audit Regulation",
+            "abbr": "2014/56/EU,"
+        },
+        {
+            "name": "Capital Requirement Regulation II",
+            "abbr": "2019/876,CRR II"
+        }, 
+        {
+            "name": "Single Euro Payment Area",
+            "abbr": "260/2012,SEPA"
+        },
+        {
+            "name": "Benchmark Regulation",
+            "abbr": "2016/2011,BM"
+        }
+]
