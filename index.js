@@ -1,4 +1,4 @@
-?/Get the the Elements
+//Get the the Elements
 const search = document.getElementById('search');
 const MatchCont = document.getElementById('MatchCont');
 //const row = document.getElementById('row');
