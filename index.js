@@ -19,7 +19,7 @@ const searchLIs = async searchText => {
     }
     outputHtml(matches);
 
-    //console.log(matches); 
+    console.log(matches); 
 };
 //show results in HTML
 const outputHtml = matches => {
