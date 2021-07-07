@@ -1,7 +1,9 @@
+?/Get the the Elements
 const search = document.getElementById('search');
 const MatchCont = document.getElementById('MatchCont');
+//const row = document.getElementById('row');
 
-//search LIs.json and filter
+//search datas.json and filter
 const searchLIs = async searchText => {
     const res = await fetch('data/datas.json');
     const datas = await res.json();
@@ -13,29 +15,19 @@ const searchLIs = async searchText => {
     });
     if (searchText.length === 0) {
         matches = [];
-        MatchCont.innerHTML = 'Type in to Search';  
+        MatchCont.innerHTML = `<a href="#" class="list-group-item list-group-item-action">Type to Search</a>`;
     }
     outputHtml(matches);
 
-    console.log(matches); 
+    //console.log(matches); 
 };
 //show results in HTML
-
 const outputHtml = matches => {
     if (matches.length > 0) {
-    const html = matches.map(match =>`
-     <div class="li-list w-50 mx-auto mt-4">
-        <ol class="breadcrumb ">
-            <li class="breadcrumb-item flex text-center"><span class="text-info">
-                    ${match.name}
-                </span>
-            </li>
-        </ol>
-     </div>
-    `).join('');
+     const html = matches.map(match =>`
+       <a href="#" class="list-group-item list-group-item-action">${match.name}</a>     
+    `).join('');      
     MatchCont.innerHTML = html;
     }
-};
-
-
+}; 
 search.addEventListener('input', () => searchLIs(search.value));
