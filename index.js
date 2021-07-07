@@ -1,4 +1,3 @@
-//Get the the Elements
 const search = document.getElementById('search');
 const MatchCont = document.getElementById('MatchCont');
 //const row = document.getElementById('row');
@@ -19,7 +18,7 @@ const searchLIs = async searchText => {
     }
     outputHtml(matches);
 
-    console.log(matches); 
+    //console.log(matches); 
 };
 //show results in HTML
 const outputHtml = matches => {
