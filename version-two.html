@@ -48,7 +48,7 @@
             $('#state').val('');
             var searchField = $('#search').val();
             var expression = new RegExp(searchField, "i");
-            $.getJSON('data/data.json', function (data) {
+            $.getJSON('https://munenepeter.github.io/my-file-tracker/data/datas.json', function (data) {
                 $.each(data, function (key, value) {
                     console.log(value.name);
                     if (value.name.search(expression) != -1 || value.abbr.search(expression) != -1) {
