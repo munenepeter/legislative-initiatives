@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div class="container-fluid">
-            <h2 class="text-success text-center mx-auto">Legislative initiatives -Test </h2>
+            <h2 class="text-success text-center mx-auto hidden">Legislative initiatives -Test </h2>
         </div>
     </nav>
     <div class="container mt-6">
@@ -49,11 +49,11 @@
                     <div v-for="LI in filteredData" class="col">
                         <div class="card border-danger mt-4" v-on:mouseleave="mouseleave" v-on:mouseover="mouseover">
 
-                            <div class="list-group" v-bind:class="{ 'copy': showCopyDiv, 'isnotDisplay': !showCopyDiv}">
+                            <div class="list-group" v-bind:class="{ 'copy': showCopyDiv, 'invisible': !showCopyDiv}">
                                 <a href="#" class="list-group-item list-group-item-action success">Copy LI</a>
                                 <a href="#" class="list-group-item list-group-item-action">Copy Abbr</a>
                             </div>
-                            <div v-bind:class="{ 'copy': !showCopyDiv, 'isnotDisplay': showCopyDiv}">
+                            <div v-bind:class="{ 'copy': !showCopyDiv, 'invisible': showCopyDiv}">
 
                                 <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
                                 <div class="card-body">
