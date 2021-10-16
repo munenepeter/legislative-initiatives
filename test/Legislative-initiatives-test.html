@@ -48,7 +48,7 @@
                 </div>
                 <div class="row">
                     <div v-for="LI in filteredData" class="col">
-                        <div class="" v-on:mouseleave="mouseleave" v-on:mouseover="mouseover">
+                        <div class="card border-danger mt-4" v-on:mouseleave="mouseleave" v-on:mouseover="mouseover">
                             <div class="list-group" v-bind:class="{ 'copy': showCopyDiv, 'isnotDisplay': !showCopyDiv}">
                                 <a href="#" class="list-group-item list-group-item-action success">Copy LI</a>
                                 <a href="#" class="list-group-item list-group-item-action">Copy Abbr</a>
