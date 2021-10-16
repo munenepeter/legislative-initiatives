@@ -8,25 +8,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search | Legislative initiatives</title>
-    <link rel="shortcut icon" type="image/svg" href="svg/Document.svg" />
+    <link rel="shortcut icon" type="image/svg" href="../svg/Document.svg" />
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="author" content="Peter Munene">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/solar/bootstrap.min.css"
-        integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css"
+        integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous">
+    <style>
+        .isnotDisplay {
+            display: none
+        }
+    </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div class="container-fluid">
-            <h2 class="text-success text-center mx-auto">Legislative initiatives</h2>
+            <h2 class="text-success text-center mx-auto">Legislative initiatives -Test </h2>
         </div>
     </nav>
     <div class="container mt-6">
         <br>
         <div class="d-flex justify-content-around">
-            <h4 class="flex-grow-1  text-center  ">Legislative initiatives</h4>
+            <h4 class="flex-grow-1  text-center  ">Legislative initiatives -Test</h4>
             <a href="versions.html" class=" ">Version 2021:04</a>
         </div>
         <br>
@@ -42,10 +47,18 @@
                 </div>
                 <div class="row">
                     <div v-for="LI in filteredData" class="col">
-                        <div class="card border-danger mt-4">
-                            <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
-                            <div class="card-body">
-                                <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
+                        <div class="card border-danger mt-4" v-on:mouseleave="mouseleave" v-on:mouseover="mouseover">
+
+                            <div class="list-group" v-bind:class="{ 'copy': showCopyDiv, 'isnotDisplay': !showCopyDiv}">
+                                <a href="#" class="list-group-item list-group-item-action success">Copy LI</a>
+                                <a href="#" class="list-group-item list-group-item-action">Copy Abbr</a>
+                            </div>
+                            <div v-bind:class="{ 'copy': !showCopyDiv, 'isnotDisplay': showCopyDiv}">
+
+                                <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
+                                <div class="card-body">
+                                    <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -62,6 +75,8 @@
             el: '#main',
 
             data: {
+                showCopyDiv: false,
+
                 searchString: "",
                 name: '',
                 abbr: '',
@@ -70,7 +85,7 @@
             },
             mounted() {
                 this.GetData();
-         },
+            },
             methods: {
                 GetData() {
                     fetch("https://munenepeter.github.io/my-file-tracker/data/datas.json")
@@ -79,6 +94,12 @@
                             this.lis = data;
                         });
                 },
+                mouseover: function () {
+                    this.showCopyDiv = !this.showCopyDiv
+                },
+                mouseleave: function () {
+                    this.message = 'Hover Me!'
+                }
             },
             computed: {
                 // A computed property that holds only those data that match the searchString.
