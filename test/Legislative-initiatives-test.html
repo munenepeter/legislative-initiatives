@@ -43,13 +43,12 @@
                     <div class="form-group mx-auto" style="max-width: 46rem;">
                         <input v-model="searchString" class="form-control form-control-lg" type="search"
                             placeholder="Type in to search Legislative initiatives">
-                           
+
                     </div>
                 </div>
                 <div class="row">
                     <div v-for="LI in filteredData" class="col">
-                        <div class="card border-danger mt-4"> 
-                            <div class="" v-on:mouseleave="mouseleave" v-on:mouseover="mouseover">
+                        <div class="" v-on:mouseleave="mouseleave" v-on:mouseover="mouseover">
                             <div class="list-group" v-bind:class="{ 'copy': showCopyDiv, 'isnotDisplay': !showCopyDiv}">
                                 <a href="#" class="list-group-item list-group-item-action success">Copy LI</a>
                                 <a href="#" class="list-group-item list-group-item-action">Copy Abbr</a>
@@ -64,15 +63,15 @@
                             </div>
 
                         </div>
-                        </div>
                     </div>
                 </div>
-            </form>
         </div>
+        </form>
+    </div>
     </div>
 
 
-     
+
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script>
         new Vue({
