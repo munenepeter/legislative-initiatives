@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Legislative initiatives">
+    <meta name="description" content="A Simple way to search for Legislative initiatives">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search | Legislative initiatives</title>
+    <link rel="shortcut icon" type="image/svg" href="svg/Document.svg" />
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Peter Munene">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/solar/bootstrap.min.css"
+        integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
+        <div class="container-fluid">
+            <h2 class="text-success text-center mx-auto">Legislative initiatives</h2>
+        </div>
+    </nav>
+    <div class="container mt-6">
+        <br>
+        <div class="d-flex justify-content-around">
+            <h4 class="flex-grow-1  text-center  ">Legislative initiatives</h4>
+            <a href="versions.html" class=" ">Version 2021:04</a>
+        </div>
+        <br>
+
+        <div class="container">
+            <form id="main" v-cloak>
+                <div class="bar">
+                    <!-- Create a binding between the searchString model and the text field  -->
+                    <div class="form-group mx-auto" style="max-width: 46rem;">
+                        <input v-model="searchString" class="form-control form-control-lg" type="search"
+                            placeholder="Type in to search Legislative initiatives">
+                    </div>
+                </div>
+                <div class="row">
+                    <div v-for="LI in filteredData" class="col">
+                        <div class="card border-danger mt-4">
+                            <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
+                            <div class="card-body">
+                                <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#main',
+
+            data: {
+                searchString: "",
+                name: '',
+                abbr: '',
+                //the array of all the snippets   
+                lis: [],
+            },
+            mounted() {
+                this.GetData();
+         },
+            methods: {
+                GetData() {
+                    fetch("https://munenepeter.github.io/my-file-tracker/data/datas.json")
+                        .then(response => response.json())
+                        .then((data) => {
+                            this.lis = data;
+                        });
+                },
+            },
+            computed: {
+                // A computed property that holds only those data that match the searchString.
+
+                filteredData: function () {
+                    var search_array = this.lis,
+                        searchString = this.searchString;
+
+                    if (!searchString) {
+                        return search_array;
+                    }
+
+                    searchString = searchString.trim().toLowerCase();
+
+                    search_array = search_array.filter(item => {
+                        if (item.abbr.toLowerCase().indexOf(searchString) !== -1 || item.name
+                            .toLowerCase().indexOf(searchString) !== -1) {
+                            return item;
+                        }
+                    })
+
+                    // Return an array with the filtered data.
+                    return search_array;
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
