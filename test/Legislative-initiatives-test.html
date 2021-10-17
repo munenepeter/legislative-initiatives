@@ -85,13 +85,12 @@
                                 <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
                             </div>
                             <div class="card-header d-flex justify-content-between">
-                                <button @click="LICopy($event, LI.name)"
-                                title="Click to copy" type="button"
-                                 class="btn btn-outline-primary">
-                                 Copy LI</button>
-                                <button @click="AbbrCopy"
-                                 title="Click to copy" type="button" class="btn btn-outline-dark">
-                                 Copy Abbr.</button>
+                                <button @click="LICopy($event, LI.name)" title="Click to copy" type="button"
+                                    class="btn btn-outline-primary">
+                                    Copy LI</button>
+                                <button @click="AbbrCopy" title="Click to copy" type="button"
+                                    class="btn btn-outline-dark">
+                                    Copy Abbr.</button>
                             </div>
                         </div>
                     </div>
@@ -143,10 +142,28 @@
 
                 //     this.showCopyDiv = false;
                 // },
-                LICopy: function(event,LItoCopy){
-                   console.log(LItoCopy); 
+                LICopy: function (event, LItoCopy) {
+                    console.log(LItoCopy);
+                    const selection = window.getSelection();
+                    const range = document.createRange();
+
+                    range.selectNodeContents(textToCopy);
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+
+                    const successful = document.execCommand('copy');
+
+                    if (successful) {
+                        answer.innerHTML = 'Copied!';
+                    } else {
+                        answer.innerHTML = 'Unable to copy!';
+                    }
+
+                    setTimeout(function () { answer.innerHTML = ' '; }, 3000);
+
+                    window.getSelection().removeAllRanges()
                 },
-                AbbrCopy: function(){
+                AbbrCopy: function () {
 
                 }
             },
