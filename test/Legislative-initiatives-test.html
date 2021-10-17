@@ -65,9 +65,9 @@
             <a href="/test/versions.html" class=" ">Version -Test</a>
         </div>
         <br>
-        
-        <div id="main"  class="container">
-            
+
+        <div id="main" class="container">
+
             <form v-cloak>
                 <div class="bar">
                     <!-- Create a binding between the searchString model and the text field  -->
@@ -77,7 +77,8 @@
 
                     </div>
                 </div>
-                <div style="margin-left:820px;min-width: 150px;" class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div id="notificationToast" style="margin-left:820px;min-width: 150px;" class="toast" role="alert"
+                    aria-live="assertive" aria-atomic="true">
                     <div class="toast-header d-flex justify-content-between">
                         <strong class="me-auto">{{msg}}</strong>
                         <small>Now</small>
@@ -119,7 +120,7 @@
             data: {
                 searchString: "",
                 name: '',
-                abbr: '',  
+                abbr: '',
                 lis: [],
                 msg: ''
             },
@@ -129,42 +130,35 @@
             methods: {
                 GetData() {
 
-                    // Online api
-                    // https://munenepeter.github.io/my-file-tracker/
-
-                    // This for local testing only
-
                     fetch("https://munenepeter.github.io/my-file-tracker/test/data/datas.json")
                         .then(response => response.json())
                         .then((data) => {
                             this.lis = data;
                         });
-                },
-                // mouseover: function () {
-                //     this.showCopyDiv = true;
-                // },
-                // mouseleave: function () {
+                }, 
+                LICopy: function (event, LItoCopy) {
 
-                //     this.showCopyDiv = false;
-                // },
-                LICopy: function (event, LItoCopy) { 
-
+                    const notificationToast = document.getElementById('notificationToast');
                     const selection = window.getSelection();
                     const range = document.createRange();
 
                     range.selectNodeContents(document.getElementById('LI'));
                     selection.removeAllRanges();
-                    selection.addRange(range); 
+                    selection.addRange(range);
 
                     const successful = document.execCommand('copy');
 
                     if (successful) {
-                        this.msg = 'Copied!';
+                        this.msg = 'Copied!' + ' ' + LItoCopy;
+                        notificationToast.classList.add("show");
                     } else {
                         this.msg = 'Unable to copy!';
+                        notificationToast.classList.add("show");
                     }
 
-                    setTimeout(function () { this.msg = ''; }, 3000);
+                    setTimeout(function () {
+                        notificationToast.classList.remove("show");
+                    }, 3000);
 
                     window.getSelection().removeAllRanges()
                 },
