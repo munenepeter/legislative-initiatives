@@ -24,38 +24,38 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="/test/Legislative-initiatives-test.html">Legislative Initiatives -Test</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/test/Legislative-initiatives-test.html">Legislative Initiatives -Test</a>
+            </div>
+            <div id="navbar" class="nav navbar-nav navbar-right ">
+
+                <ul class="nav navbar-collapse collapse">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Legislative</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/test/versions.html">Versions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">T & C's</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Actions</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Add LI</a>
+                            <a class="dropdown-item" href="#">Suggest Features</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Feedback</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="nav navbar-nav navbar-right ">
-            
-            <ul class="nav navbar-collapse collapse">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Legislative</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/test/versions.html">Versions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">T & C's</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                        aria-expanded="false">Actions</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Add LI</a>
-                        <a class="dropdown-item" href="#">Suggest Features</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Feedback</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</nav>
+    </nav>
 
 
     <div class="container mt-6">
@@ -78,15 +78,17 @@
                 </div>
                 <div class="row">
                     <div v-for="LI in filteredData" class="col" style="min-width:250px;">
-                        <div class="card border-danger mt-4">             
+                        <div class="card border-danger mt-4">
 
-                                <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
-                                <div class="card-body">
-                                    <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
-                                </div>                         
+                            <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
+                            <div class="card-body">
+                                <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
+                            </div>
                             <div class="card-header d-flex justify-content-between">
-                            <button title="Click to copy" type="button" class="btn btn-outline-primary">Copy LI</button>
-                            <button title="Click to copy" type="button" class="btn btn-outline-dark">Copy Abbr.</button>
+                                <button title="Click to copy" type="button" class="btn btn-outline-primary">Copy
+                                    LI</button>
+                                <button title="Click to copy" type="button" class="btn btn-outline-dark">Copy
+                                    Abbr.</button>
                             </div>
                         </div>
                     </div>
@@ -97,9 +99,9 @@
     </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script>
         new Vue({
@@ -119,7 +121,7 @@
             },
             methods: {
                 GetData() {
-                    
+
                     // Online api
                     // https://munenepeter.github.io/my-file-tracker/
 
@@ -163,6 +165,26 @@
                     return search_array;
                 }
             }
+        });
+
+        const answer = document.getElementById("copyResult");
+        const copy = document.getElementById("copyButton");
+        const selection = window.getSelection();
+        const range = document.createRange();
+        const textToCopy = document.getElementById("textToCopy")
+
+        copy.addEventListener('click', function (e) {
+            range.selectNodeContents(textToCopy);
+            selection.removeAllRanges();
+            selection.addRange(range);
+            const successful = document.execCommand('copy');
+            if (successful) {
+                answer.innerHTML = 'Copied!';
+            } else {
+                answer.innerHTML = 'Unable to copy!';
+            }
+            setTimeout(function () { answer.innerHTML = ' ';; }, 3000);
+            window.getSelection().removeAllRanges()
         });
     </script>
 </body>
