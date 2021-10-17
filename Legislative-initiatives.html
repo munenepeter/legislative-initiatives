@@ -40,14 +40,21 @@
                             placeholder="Type in to search Legislative initiatives">
                     </div>
                 </div>
+                <div id="notificationToast" style="margin-left:820px;min-width: 150px;" class="toast show" role="alert" aria-live="assertive"
+                    aria-atomic="true">
+                    <div class="toast-header d-flex justify-content-between">
+                        <strong class="me-auto">{{msg}}</strong>
+                        <small>Now</small>
+                    </div>
+                </div>
                 <div class="row">
                     <div v-for="LI in filteredData" class="col" style="min-width:250px;">
                         <div class="card border-danger mt-4">
-                            <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
+                            <div v-bind:href="LI.name" id='LI' class="card-header">{{LI.name}}</div>
                             <div class="card-body">
                                 <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
                             </div>
-                            <button @click="LICopy($event, LI.name)" title="Click to copy" type="button" class="btn btn-outline-primary">
+                            <button @click="LICopy($event, LI.name)" title="Click to copy" type="button" class="btn btn-outline-danger">
                                 Copy LI</button>
                         </div>
                     </div>
@@ -67,8 +74,9 @@
                 searchString: "",
                 name: '',
                 abbr: '',
-                //the array of all the snippets   
+                //the array of all the LI's  
                 lis: [],
+                msg: "Testing! - Alternative Investment Fund Managers Regulation"
             },
             mounted() {
                 this.GetData();
