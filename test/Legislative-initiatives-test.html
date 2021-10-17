@@ -65,9 +65,10 @@
             <a href="/test/versions.html" class=" ">Version -Test</a>
         </div>
         <br>
-
-        <div class="container">
-            <form id="main" v-cloak>
+        
+        <div id="main"  class="container">
+            
+            <form v-cloak>
                 <div class="bar">
                     <!-- Create a binding between the searchString model and the text field  -->
                     <div class="form-group mx-auto" style="max-width: 46rem;">
@@ -76,11 +77,17 @@
 
                     </div>
                 </div>
+                <div style="margin-left:820px;min-width: 150px;" class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header d-flex justify-content-between">
+                        <strong class="me-auto">{{msg}}</strong>
+                        <small>Now</small>
+                    </div>
+                </div>
                 <div class="row">
                     <div v-for="LI in filteredData" class="col" style="min-width:250px;">
                         <div class="card border-danger mt-4">
 
-                            <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
+                            <div v-bind:href="LI.name" id='LI' class="card-header">{{LI.name}}</div>
                             <div class="card-body">
                                 <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
                             </div>
@@ -110,13 +117,11 @@
             el: '#main',
 
             data: {
-                //showCopyDiv: false,
-
                 searchString: "",
                 name: '',
-                abbr: '',
-                //the array of all the snippets   
+                abbr: '',  
                 lis: [],
+                msg: ''
             },
             mounted() {
                 this.GetData();
@@ -142,24 +147,24 @@
 
                 //     this.showCopyDiv = false;
                 // },
-                LICopy: function (event, LItoCopy) {
-                    console.log(LItoCopy);
+                LICopy: function (event, LItoCopy) { 
+
                     const selection = window.getSelection();
                     const range = document.createRange();
 
-                    range.selectNodeContents(textToCopy);
+                    range.selectNodeContents(document.getElementById('LI'));
                     selection.removeAllRanges();
-                    selection.addRange(range);
+                    selection.addRange(range); 
 
                     const successful = document.execCommand('copy');
 
                     if (successful) {
-                        answer.innerHTML = 'Copied!';
+                        this.msg = 'Copied!';
                     } else {
-                        answer.innerHTML = 'Unable to copy!';
+                        this.msg = 'Unable to copy!';
                     }
 
-                    setTimeout(function () { answer.innerHTML = ' '; }, 3000);
+                    setTimeout(function () { this.msg = ''; }, 3000);
 
                     window.getSelection().removeAllRanges()
                 },
