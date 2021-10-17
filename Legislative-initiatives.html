@@ -40,8 +40,8 @@
                             placeholder="Type in to search Legislative initiatives">
                     </div>
                 </div>
-                <div id="notificationToast" style="margin-left:820px;min-width: 150px;" class="toast show" role="alert" aria-live="assertive"
-                    aria-atomic="true">
+                <div id="notificationToast" style="margin-left:820px;min-width: 150px;" class="toast show" role="alert"
+                    aria-live="assertive" aria-atomic="true">
                     <div class="toast-header d-flex justify-content-between">
                         <strong class="me-auto">{{msg}}</strong>
                         <small>Now</small>
@@ -54,7 +54,8 @@
                             <div class="card-body">
                                 <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
                             </div>
-                            <button @click="LICopy($event, LI.name)" title="Click to copy" type="button" class="btn btn-outline-danger">
+                            <button @click="LICopy($event, LI.name)" title="Click to copy" type="button"
+                                class="btn btn-outline-danger">
                                 Copy LI</button>
                         </div>
                     </div>
@@ -64,8 +65,8 @@
     </div>
 
 
-     
-   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script>
         new Vue({
             el: '#main',
@@ -89,6 +90,32 @@
                             this.lis = data;
                         });
                 },
+                LICopy: function (event, LItoCopy) {
+
+                    const notificationToast = document.getElementById('notificationToast');
+                    const selection = window.getSelection();
+                    const range = document.createRange();
+
+                    range.selectNodeContents(document.getElementById('LI'));
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+
+                    const successful = document.execCommand('copy');
+
+                    if (successful) {
+                        this.msg = 'Copied!' + ' ' + LItoCopy;
+                        notificationToast.classList.add("show");
+                    } else {
+                        this.msg = 'Unable to copy!';
+                        notificationToast.classList.add("show");
+                    }
+
+                    setTimeout(function () {
+                        notificationToast.classList.remove("show");
+                    }, 3000);
+
+                    window.getSelection().removeAllRanges()
+                }
             },
             computed: {
                 // A computed property that holds only those data that match the searchString.
