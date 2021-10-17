@@ -96,7 +96,8 @@
                                 <button @click="LICopy($event, LI.name)" title="Click to copy" type="button"
                                     class="btn btn-outline-primary">
                                     Copy LI</button>
-                                <button @click="AbbrCopy" title="Click to copy" type="button"
+                                    <!-- Yet to know how it will work -->
+                                <button @click="AbbrCopy($event, LI.abbr)" title="Click to copy" type="button"
                                     class="btn btn-outline-dark">
                                     Copy Abbr.</button>
                             </div>
@@ -135,7 +136,7 @@
                         .then((data) => {
                             this.lis = data;
                         });
-                }, 
+                },
                 LICopy: function (event, LItoCopy) {
 
                     const notificationToast = document.getElementById('notificationToast');
@@ -162,8 +163,8 @@
 
                     window.getSelection().removeAllRanges()
                 },
-                AbbrCopy: function () {
-
+                AbbrCopy: function (event, AbbrtoCopy) {
+                   console.log(AbbrtoCopy)
                 }
             },
             computed: {
@@ -191,34 +192,7 @@
                 }
             }
         });
-
-        // const answer = document.getElementById("copyResult");
-        // const copy = document.getElementById("copyButton");
-        // const selection = window.getSelection();
-        // //const range = document.createRange();
-        // const textToCopy = document.getElementById("textToCopy")
-
-        // copy.addEventListener('click', function (e) {
-
-        //     const selection = window.getSelection();
-        //     const range = document.createRange();
-
-        //     range.selectNodeContents(textToCopy);
-        //     selection.removeAllRanges();
-        //     selection.addRange(range);
-
-        //     const successful = document.execCommand('copy');
-
-        //     if (successful) {
-        //         answer.innerHTML = 'Copied!';
-        //     } else {
-        //         answer.innerHTML = 'Unable to copy!';
-        //     }
-
-        //     setTimeout(function () { answer.innerHTML = ' '; }, 3000);
-
-        //     window.getSelection().removeAllRanges()
-        // });
+ 
     </script>
 </body>
 
