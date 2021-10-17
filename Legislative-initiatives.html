@@ -27,7 +27,7 @@
         <br>
         <div class="d-flex justify-content-around">
             <h4 class="flex-grow-1  text-center  ">Legislative initiatives</h4>
-            <a href="versions.html" class=" ">Version 2021:04</a>
+            <a href="versions.html" class=" ">Version 2021:05</a>
         </div>
         <br>
 
@@ -41,12 +41,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div v-for="LI in filteredData" class="col">
+                    <div v-for="LI in filteredData" class="col" style="min-width:250px;">
                         <div class="card border-danger mt-4">
                             <div v-bind:href="LI.name" class="card-header">{{LI.name}}</div>
                             <div class="card-body">
                                 <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
                             </div>
+                            <button @click="LICopy($event, LI.name)" title="Click to copy" type="button" class="btn btn-outline-primary">
+                                Copy LI</button>
                         </div>
                     </div>
                 </div>
@@ -70,7 +72,7 @@
             },
             mounted() {
                 this.GetData();
-         },
+            },
             methods: {
                 GetData() {
                     fetch("https://munenepeter.github.io/my-file-tracker/data/datas.json")
