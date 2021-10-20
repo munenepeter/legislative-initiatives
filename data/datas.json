@@ -1537,5 +1537,34 @@
     {
         "name": "Preventing Money Laundering and Terrorist Financing (Anti-Money Laundering Act) (Finland)",
         "abbr": "444/2017, Preventing Money Laundering and Terrorist Financing"
+    },
+    {
+        "name": "Moneylenders Act",
+        "abbr": "Moneylenders Act"
+    },
+    {
+        "name": "Data Governance Act (DGA)",
+        "abbr": "DGA,Data Governance Act"
+    },
+    {
+        "name": "Data Act (European Union)",
+        "abbr": "Data Act, EU Data Act"
+    },
+    {
+        "name": "German Electronic Securities Act (Gesetz zur Einführung elektronischer Wertpapiere – eWpG)",
+        "abbr": "eWpG,Electronic Securities Act"
+    },
+    {
+        "name": "German Financial Market Integrity Strengthening Act (FISG - Finanzmarktintegritätsstärkungsgesetz)",
+        "abbr": "FISG,Finanzmarktintegritätsstärkungsgesetz,Financial Market Integrity Strengthening Act"
+    },
+    {
+        "name": "German Stock Exchange Act (Börsengesetz)",
+        "abbr": "Börsengesetz,Stock Exchange Act"
+    },
+    {
+        "name": "Fundamentally Understanding the Usability and Realistic Evolution of Artificial Intelligence Act of 2020",
+        "abbr": "FUTURE of Artificial Intelligence Act of 2020"
     }
+
 ]
