@@ -1518,6 +1518,26 @@
          {
             "name": "Investment Firm Directive",
             "abbr": "IFD, 2019/2034"
+        },
+        {
+        "name": "IAS - International Accounting Standards"
+        "abbr": "IAS, International Accounting Standards"
+        },
+        {
+        "name": "Generally Accepted Accounting Principles (GAAP)"
+        "abbr": "GAAP, Generally Accepted Accounting Principles"
+        },
+        {
+        "name": "EU Low Carbon Benchmark Regulation"	 
+        "abbr": "Low-Carbon Benchmark, Low-Carbon Benchmark Regulation"
+        },
+        {
+        "name": "Clarifying Lawful Overseas Use of Data Act (CLOUD Act)"	
+        "abbr": "CLOUD ACT, Clarifying Lawful Overseas Use of Data Act"
+        },
+        {
+        "name": "Preventing Money Laundering and Terrorist Financing (Anti-Money Laundering Act) (Finland)"	
+        "abbr": "444/2017, Preventing Money Laundering and Terrorist Financing"
         }
     ]
    
