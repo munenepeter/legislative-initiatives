@@ -1,0 +1,8 @@
+______________________
+20th Oct
+_____________________
+name: IAS - International Accounting Standards
+abbr: IAS, International Accounting Standards,
+
+name: Generally Accepted Accounting Principles (GAAP)
+abbr: GAAP, Generally Accepted Accounting Principles
