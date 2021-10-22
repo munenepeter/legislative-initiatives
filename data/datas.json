@@ -1569,6 +1569,91 @@
     {
         "name": "Bank Recovery and Resolution Act (BaSAG; Sanierungs- und Abwicklungsgesetz)",
         "abbr": "BaSAG,Bank Recovery and Resolution Act"
+    },
+    {
+        "name": "Regulation SHO (Reg SHO)",
+        "abbr": "Regulation SHO,Reg SHO,SHO"
+    },
+    {
+        "name": "Republic Act (R.A.) No. 7653: The New Central Bank Act",
+        "abbr": "Republic Act (R.A.) No. 7653,New Central Bank Act,Central Bank Act"
+    },
+    {
+        "name": "Republic Act No. 11469: Bayanihan to Heal As One Act (Bayanihan Act)",
+        "abbr": "Republic Act No. 11469,Bayanihan to Heal As One Act,Bayanihan Act"
+    },
+    {
+        "name": "Republic Act No. 8799, The Securities Regulation Code - (Philippines)",
+        "abbr": "Securities Regulation Code,8799,Republic Act No. 8799"
+    },
+ 
+    {
+        "name": "RFA - Regulatory Flexibility Act",
+        "abbr": "RFA,Regulatory Flexibility Act"
+    },
+    {
+        "name": "Ringfencing and Recovery and Resolution Planning for Credit Institutions and Financial Groups (Gesetz zur Abschirmung von Risiken und zur Planung der Sanierung und Abwicklung von Kreditinstituten und {Finanzgruppen)",
+        "abbr": "Ringfencing and Recovery and Resolution Planning for Credit Institutions,"
+    },
+    {
+        "name": "Sanctions and Anti-Money Laundering Act 2018",
+        "abbr": "Sanctions and Anti-Money Laundering Act 2018"
+    },
+    {
+        "name": "Sarbanes–Oxley Act",
+        "abbr": "Sarbanes–Oxley Act"
+    },
+    {
+        "name": "Savings Banks Act (SpG; Sparkassengesetz)",
+        "abbr": "Savings Banks Act,SpG,Sparkassengesetz"
+    },
+    {
+        "name": "Scottish National Investment Bank Act 2020",
+        "abbr": "National Investment Bank Act 2020,Scottish National Investment Bank Act"
+    },
+    {
+        "name": "Second Corona Tax Assistance Act (Zweite Corona Steuerhilfegesetz)",
+        "abbr": "Second Corona Tax Assistance Act,Zweite Corona Steuerhilfegesetz"
+    },
+    {
+        "name": "Securities Act (Alberta)",
+        "abbr": "Securities Act (Alberta)"
+    },
+    {
+        "name": "Securities Act (British Columbia)",
+        "abbr": "Securities Act (British Columbia)"
+    },
+    {
+        "name": "Securities Act (Ontario)",
+        "abbr": "Securities Act (Ontario)"
+    },
+    {
+        "name": "Securities Act 1933 (United States)",
+        "abbr": "Securities Act 1933,Securities Act (United States"
+    },
+    {
+        "name": "Securities and Exchange Act B.E. 2535",
+        "abbr": "2535,B.E. 2535"
+    },
+    {
+        "name": "Securities and Exchange Act B.E. 2535 (Thailand)",
+        "abbr": "B.E. 2535, Act B.E. 2535 Thailand,Securities and Exchange Act Thailand)"
+    },
+    {
+        "name": "Securities and Exchange Commission of Sri Lanka Act (SECSL)",
+        "abbr": "SECSL,Sri Lanka Act"
+    },
+    {
+        "name": "Securities and Futures (Financial Resources) Rules (FRR)",
+        "abbr": "FRR"
+    },
+    {
+        "name": "Securities and Futures (Reporting of Derivatives Contracts) Regulations 2013",
+        "abbr": "Regulations 2013,Reporting of Derivatives Contracts"
+    },
+    {
+        "name": "Securities Deposit Act (DepotG - Depotgesetz)",
+        "abbr": "DepotG,Depotgesetz"
     }
 
 ]
