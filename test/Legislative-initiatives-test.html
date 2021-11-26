@@ -181,6 +181,10 @@
                         if (item.abbr.toLowerCase().indexOf(searchString) !== -1 || item.name
                             .toLowerCase().indexOf(searchString) !== -1) {
                             return item;
+                        }else {
+
+                            let empty = "No LI with the"+ searchString + "was found";
+                            return  empty;
                         }
                     })
 
