@@ -170,6 +170,7 @@
                 filteredData: function () {
                     var search_array = this.lis,
                         searchString = this.searchString;
+                        empty = "No LI with the"+ searchString + "was found";    
 
                     if (!searchString) {
                         return search_array;
@@ -181,9 +182,9 @@
                         if (item.abbr.toLowerCase().indexOf(searchString) !== -1 || item.name
                             .toLowerCase().indexOf(searchString) !== -1) {
                             return item;
-                        }else {
 
-                            let empty = "No LI with the"+ searchString + "was found";
+                        }else {
+                            console.log("Here")  ;                          
                             return  empty;
                         }
                     })
