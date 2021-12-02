@@ -1662,6 +1662,10 @@
      {
         "name": "UK General Data Protection Regulation (UK GDPR)",
         "abbr": "UK GDPR,UK General Data Protection,Data Protection Act 2018,National Security and Investment Act,National Security & Investment Act,UK Data Protection"
+    },
+    {
+        "name": "Thailand Cybersecurity Act B.E. 2564 (2021)",
+        "abbr": "Thailand Cybersecurity, Act B.E. 2564 (2021),B.E. 2564"
     }
 
 ]
