@@ -1,5 +1,4 @@
-[    
-    {
+[{
         "name": "Alternative Investment Fund Managers Directive ",
         "abbr": "2011/61/EU,AIFMD"
     },
@@ -116,11 +115,11 @@
         "abbr": "596/2014,MAR"
     },
     {
-        "name": "Markets in Financial Instruments Directive ",
+        "name": "Markets in Financial Instruments Directive ",
         "abbr": "2004/39/EC,MIFID I"
     },
     {
-        "name": "Markets in Financial Instruments Directive ",
+        "name": "Markets in Financial Instruments Directive ",
         "abbr": "2014/65/EU,MIFID II "
     },
     {
@@ -341,7 +340,7 @@
     },
     {
         "name": "Capital Requirements Regulation (CRR)",
-        "abbr": "575/2013;CRR;Capital Requirements Regulation;Capital Requirements Regulation 2013;Regulation (EU) No 575/2013"
+        "abbr": "575/2013;CRR;Capital Requirements Regulation;Capital Requirements Regulation 2013;Regulation (EU) No 575/2013"
     },
     {
         "name": "Capital Requirements Regulation II (CRR II)",
@@ -1504,8 +1503,8 @@
         "abbr": "Electronic Transactions Act"
     },
     {
-        "name": "Fundamentally Understanding the Usability and Realistic Evolution of Artificial Intelligence Act of 2020",
-        "abbr": "FUTURE of Artificial Intelligence Act of 2020"
+        "name": "Fundamentally Understanding the Usability and Realistic Evolution of Artificial Intelligence Act of 2020",
+        "abbr": "FUTURE of Artificial Intelligence Act of 2020"
     },
     {
         "name": "Covid-19 Global Pandemic",
@@ -1566,6 +1565,107 @@
     {
         "name": "Fundamentally Understanding the Usability and Realistic Evolution of Artificial Intelligence Act of 2020",
         "abbr": "FUTURE of Artificial Intelligence Act of 2020"
+    },
+    {
+        "name": "Bank Recovery and Resolution Act (BaSAG; Sanierungs- und Abwicklungsgesetz)",
+        "abbr": "BaSAG,Bank Recovery and Resolution Act"
+    },
+    {
+        "name": "Regulation SHO (Reg SHO)",
+        "abbr": "Regulation SHO,Reg SHO,SHO"
+    },
+    {
+        "name": "Republic Act (R.A.) No. 7653: The New Central Bank Act",
+        "abbr": "Republic Act (R.A.) No. 7653,New Central Bank Act,Central Bank Act"
+    },
+    {
+        "name": "Republic Act No. 11469: Bayanihan to Heal As One Act (Bayanihan Act)",
+        "abbr": "Republic Act No. 11469,Bayanihan to Heal As One Act,Bayanihan Act"
+    },
+    {
+        "name": "Republic Act No. 8799, The Securities Regulation Code - (Philippines)",
+        "abbr": "Securities Regulation Code,8799,Republic Act No. 8799"
+    },
+ 
+    {
+        "name": "RFA - Regulatory Flexibility Act",
+        "abbr": "RFA,Regulatory Flexibility Act"
+    },
+    {
+        "name": "Ringfencing and Recovery and Resolution Planning for Credit Institutions and Financial Groups (Gesetz zur Abschirmung von Risiken und zur Planung der Sanierung und Abwicklung von Kreditinstituten und {Finanzgruppen)",
+        "abbr": "Ringfencing and Recovery and Resolution Planning for Credit Institutions,"
+    },
+    {
+        "name": "Sanctions and Anti-Money Laundering Act 2018",
+        "abbr": "Sanctions and Anti-Money Laundering Act 2018"
+    },
+    {
+        "name": "Sarbanes–Oxley Act",
+        "abbr": "Sarbanes–Oxley Act"
+    },
+    {
+        "name": "Savings Banks Act (SpG; Sparkassengesetz)",
+        "abbr": "Savings Banks Act,SpG,Sparkassengesetz"
+    },
+    {
+        "name": "Scottish National Investment Bank Act 2020",
+        "abbr": "National Investment Bank Act 2020,Scottish National Investment Bank Act"
+    },
+    {
+        "name": "Second Corona Tax Assistance Act (Zweite Corona Steuerhilfegesetz)",
+        "abbr": "Second Corona Tax Assistance Act,Zweite Corona Steuerhilfegesetz"
+    },
+    {
+        "name": "Securities Act (Alberta)",
+        "abbr": "Securities Act (Alberta)"
+    },
+    {
+        "name": "Securities Act (British Columbia)",
+        "abbr": "Securities Act (British Columbia)"
+    },
+    {
+        "name": "Securities Act (Ontario)",
+        "abbr": "Securities Act (Ontario)"
+    },
+    {
+        "name": "Securities Act 1933 (United States)",
+        "abbr": "Securities Act 1933,Securities Act (United States"
+    },
+    {
+        "name": "Securities and Exchange Act B.E. 2535",
+        "abbr": "2535,B.E. 2535"
+    },
+    {
+        "name": "Securities and Exchange Act B.E. 2535 (Thailand)",
+        "abbr": "B.E. 2535, Act B.E. 2535 Thailand,Securities and Exchange Act Thailand)"
+    },
+    {
+        "name": "Securities and Exchange Commission of Sri Lanka Act (SECSL)",
+        "abbr": "SECSL,Sri Lanka Act"
+    },
+    {
+        "name": "Securities and Futures (Financial Resources) Rules (FRR)",
+        "abbr": "FRR"
+    },
+    {
+        "name": "Securities and Futures (Reporting of Derivatives Contracts) Regulations 2013",
+        "abbr": "Regulations 2013,Reporting of Derivatives Contracts"
+    },
+    {
+        "name": "Securities Deposit Act (DepotG - Depotgesetz)",
+        "abbr": "DepotG,Depotgesetz"
+    },
+    {
+        "name": "Consolidated Law on Banking (TUB) - Legislative Decree 385/1993 – [Italy]",
+        "abbr": "Legislative Decree 385/1993,385/1993,Consolidated Law on Banking,TUB"
+    },
+     {
+        "name": "UK General Data Protection Regulation (UK GDPR)",
+        "abbr": "UK GDPR,UK General Data Protection,Data Protection Act 2018,National Security and Investment Act,National Security & Investment Act,UK Data Protection"
+    },
+    {
+        "name": "Thailand Cybersecurity Act B.E. 2564 (2021)",
+        "abbr": "Thailand Cybersecurity, Act B.E. 2564 (2021),B.E. 2564"
     }
 
 ]
