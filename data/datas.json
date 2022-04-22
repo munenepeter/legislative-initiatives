@@ -260,7 +260,7 @@
     },
     {
         "name": "National Consumer Credit Protection Act 2009",
-        "abbr": "NCCP Act;National Credit Act;No. 134, 2009"
+        "abbr": "NCCP Act,National Credit Act,No. 134, 2009"
     },
     {
         "name": "Privacy Act 1998",
@@ -268,39 +268,39 @@
     },
     {
         "name": "Reserve Bank Act of 1959",
-        "abbr": "Reserve Bank Act;Reserve Bank Act 1959"
+        "abbr": "Reserve Bank Act,Reserve Bank Act 1959"
     },
     {
         "name": "Financial Markets Money Laundering Act – Finanzmarkt-Geldwäschegesetz",
-        "abbr": "FM-GwG;Finanzmarkt-Geldwäschegesetz"
+        "abbr": "FM-GwG,Finanzmarkt-Geldwäschegesetz"
     },
     {
         "name": "Kapitalmarktgesetz 2019",
-        "abbr": "Capital Market Act 2019;KMG 2019"
+        "abbr": "Capital Market Act 2019,KMG 2019"
     },
     {
         "name": "2018 Action Plan on Financing Sustainable Growth",
-        "abbr": "Action Plan for Financing Sustainable Growth;Action Plan ‘Financing Sustainable Growth;Action Plan ‘Financing Sustainable Growth’;Action Plan: Financing Sustainable Growth;COM/2018/097"
+        "abbr": "Action Plan for Financing Sustainable Growth,Action Plan ‘Financing Sustainable Growth,Action Plan ‘Financing Sustainable Growth’,Action Plan: Financing Sustainable Growth,COM/2018/097"
     },
     {
         "name": "Accounting Directive",
-        "abbr": "2013/34;2013/34/EU;Directive 2013/34;Directive 2013/34/EU"
+        "abbr": "2013/34,2013/34/EU,Directive 2013/34,Directive 2013/34/EU"
     },
     {
         "name": "Administrative Cooperation in the Field of Taxation",
-        "abbr": "2011/16;2011/16/EU;Council Directive 2011/16;Council Directive 2011/16/EU"
+        "abbr": "2011/16,2011/16/EU,Council Directive 2011/16,Council Directive 2011/16/EU"
     },
     {
         "name": "Alternative Investment Fund Managers Directive (AIFMD)",
-        "abbr": "2011/61/EU;AIFM Directive;AIFMD;Alternative Investment Fund Managers Directive;Alternative Investment Fund Managers Directive 2011;Directive 2011/61/EU"
+        "abbr": "2011/61/EU,AIFM Directive,AIFMD,Alternative Investment Fund Managers Directive,Alternative Investment Fund Managers Directive 2011,Directive 2011/61/EU"
     },
     {
         "name": "Anti-Money Laundering Directive IV (AMLD IV)",
-        "abbr": "2015/849;AMLD 4;AMLD IV;AMLD4;AMLDIV;Anti-Money Laundering Directive;Anti-Money Laundering Directive 4;Anti-Money Laundering Directive IV;Anti-Money Laundering Directive4;Anti-Money Laundering DirectiveIV;Directive (EU) 2015/849;Fourth Money Laundering Directive;MLD4;MLDIV"
+        "abbr": "2015/849,AMLD 4,AMLD IV,AMLD4,AMLDIV,Anti-Money Laundering Directive,Anti-Money Laundering Directive 4,Anti-Money Laundering Directive IV,Anti-Money Laundering Directive4,Anti-Money Laundering DirectiveIV,Directive (EU) 2015/849,Fourth Money Laundering Directive,MLD4,MLDIV"
     },
     {
         "name": "Anti-Money Laundering Directive V (AMLD V)",
-        "abbr": "AMLD V;AMLD5;AMLDV;Anti-Money Laundering Directive 5;Anti-Money Laundering Directive V;Anti-Money Laundering Directive5;Anti-Money Laundering DirectiveV;Directive (EU) 2018/843;Fifth Money Laundering Directive;MLD 5;MLD V;MLD5;MLDV"
+        "abbr": "AMLD V,AMLD5,AMLDV,Anti-Money Laundering Directive 5,Anti-Money Laundering Directive V,Anti-Money Laundering Directive5,Anti-Money Laundering DirectiveV,Directive (EU) 2018/843,Fifth Money Laundering Directive,MLD 5,MLD V,MLD5,MLDV"
     },
     {
         "name": "As yet unproposed Anti-money laundering legislative package",
@@ -316,51 +316,51 @@
     },
     {
         "name": "Bank Recovery and Resolution Directive (BRRD)",
-        "abbr": "2014/59/EU;BRRD;Bank Recovery and Resolution Directive;Directive 2014/59/EU"
+        "abbr": "2014/59/EU,BRRD,Bank Recovery and Resolution Directive,Directive 2014/59/EU"
     },
     {
         "name": "Bank Recovery and Resolution Directive 2 (BRRD2)",
-        "abbr": "2019/879;BRRD 2;BRRD II;BRRD2;BRRDII;Bank Recovery and Resolution Directive 2;Bank Recovery and Resolution Directive II;Bank Recovery and Resolution Directive2;Bank Recovery and Resolution DirectiveII;Directive (EU) 2019/879"
+        "abbr": "2019/879,BRRD 2,BRRD II,BRRD2,BRRDII,Bank Recovery and Resolution Directive 2,Bank Recovery and Resolution Directive II,Bank Recovery and Resolution Directive2,Bank Recovery and Resolution DirectiveII,Directive (EU) 2019/879"
     },
     {
         "name": "Benchmark Regulation (BMR)",
-        "abbr": "2016/1011/EU;BMR;Benchmark Regulation;Benchmarks Regulation;Regulation (EU) 2016/1011;Regulation 2016/1011/EU"
+        "abbr": "2016/1011/EU,BMR,Benchmark Regulation,Benchmarks Regulation,Regulation (EU) 2016/1011,Regulation 2016/1011/EU"
     },
     {
         "name": "Capital Markets Union (CMU)",
-        "abbr": "CMU;Capital Markets Union"
+        "abbr": "CMU,Capital Markets Union"
     },
     {
         "name": "Capital Requirements Directive IV (CRD IV)",
-        "abbr": "2013/36/EU;CRD 4;CRD IV;CRD4;CRDIV;Capital Requirements Directive 2013/36/EU;Capital Requirements Directive 4;Capital Requirements Directive IV;Capital Requirements Directive4;Capital Requirements DirectiveIV;Directive 2013/36/EU"
+        "abbr": "2013/36/EU,CRD 4,CRD IV,CRD4,CRDIV,Capital Requirements Directive 2013/36/EU,Capital Requirements Directive 4,Capital Requirements Directive IV,Capital Requirements Directive4,Capital Requirements DirectiveIV,Directive 2013/36/EU"
     },
     {
         "name": "Capital Requirements Directive V (CRD V)",
-        "abbr": "2019/878;CRD 5;CRD V;CRD5;CRDV;Capital Requirements Directive 5;Capital Requirements Directive V;Capital Requirements Directive5;Capital Requirements DirectiveV;Directive (EU) 2019/878"
+        "abbr": "2019/878,CRD 5,CRD V,CRD5,CRDV,Capital Requirements Directive 5,Capital Requirements Directive V,Capital Requirements Directive5,Capital Requirements DirectiveV,Directive (EU) 2019/878"
     },
     {
         "name": "Capital Requirements Regulation (CRR)",
-        "abbr": "575/2013;CRR;Capital Requirements Regulation;Capital Requirements Regulation 2013;Regulation (EU) No 575/2013"
+        "abbr": "575/2013,CRR,Capital Requirements Regulation,Capital Requirements Regulation 2013,Regulation (EU) No 575/2013"
     },
     {
         "name": "Capital Requirements Regulation II (CRR II)",
-        "abbr": "2019/876;CRR 2;CRR II;CRR2;CRRII;Capital Requirements Regulation 2;Capital Requirements Regulation II;Capital Requirements Regulation2;Capital Requirements RegulationII;EU Regulation 2019/876;Revised Capital Requirements Regulation"
+        "abbr": "2019/876,CRR 2,CRR II,CRR2,CRRII,Capital Requirements Regulation 2,Capital Requirements Regulation II,Capital Requirements Regulation2,Capital Requirements RegulationII,EU Regulation 2019/876,Revised Capital Requirements Regulation"
     },
     {
         "name": "Central Counterparty Recovery and Resolution Regulation",
-        "abbr": "2016/0365 (COD);COM/2016/0856;Central Counterparty Recovery and Resolution"
+        "abbr": "2016/0365 (COD),COM/2016/0856,Central Counterparty Recovery and Resolution"
     },
     {
         "name": "Central Securities Depositories Regulation (CSDR)",
-        "abbr": "909/2014;CSDR;Central Securities Depositories Regulation;Regulation (EU) No 909/2014"
+        "abbr": "909/2014,CSDR,Central Securities Depositories Regulation,Regulation (EU) No 909/2014"
     },
     {
         "name": "Council Directive (2016/2258)",
-        "abbr": "(EU) 2016/2258;2016/2258;DIRECTIVE 2016/2258"
+        "abbr": "(EU) 2016/2258,2016/2258,DIRECTIVE 2016/2258"
     },
     {
         "name": "Credit Rating Agency Regulation (CRAR)",
-        "abbr": "CRA Regulation;CRAR;Credit Rating Agencies Regulation;Regulation (EU) No 462/2013"
+        "abbr": "CRA Regulation,CRAR,Credit Rating Agencies Regulation,Regulation (EU) No 462/2013"
     },
     {
         "name": "Cross-border Distribution Directive (CBDD)",
@@ -372,11 +372,11 @@
     },
     {
         "name": "Cross-Border Payment Regulation (CBPR)",
-        "abbr": "(2019/518);(924/2009);CBPR;Cross Border Payment Regulation;Cross-Border Payment Regulation"
+        "abbr": "(2019/518),(924/2009),CBPR,Cross Border Payment Regulation,Cross-Border Payment Regulation"
     },
     {
         "name": "Cybersecurity Act 2018",
-        "abbr": "2017/0225(COD);Cybersecurity Act"
+        "abbr": "2017/0225(COD),Cybersecurity Act"
     },
     {
         "name": "Data Act 2021",
@@ -384,23 +384,23 @@
     },
     {
         "name": "Deposit Guarantee Schemes Directive (DGSD)",
-        "abbr": "2014/49/EU;DGSD;Deposit Guarantee Schemes Directive"
+        "abbr": "2014/49/EU,DGSD,Deposit Guarantee Schemes Directive"
     },
     {
         "name": "Digital Operational Resilience Act (DORA)",
-        "abbr": "2020/0266(COD);COM(2020) 595 final;DORA;Digital Operational Resilience;Digital Operational Resilience Act"
+        "abbr": "2020/0266(COD),COM(2020) 595 final,DORA,Digital Operational Resilience,Digital Operational Resilience Act"
     },
     {
         "name": "Distance Marketing Directive",
-        "abbr": "2002/65/EC;Directive 2002/65/EC"
+        "abbr": "2002/65/EC,Directive 2002/65/EC"
     },
     {
         "name": "E-money Directive",
-        "abbr": "Directive 2009/110/EC;EMD;Electronic Money Directive"
+        "abbr": "Directive 2009/110/EC,EMD,Electronic Money Directive"
     },
     {
         "name": "E-Money Directive 2",
-        "abbr": "Directive 2009/110/EC;E-Money Directive II;E-Money Directive2;E-Money DirectiveII;EMD 2;EMD II;EMD2;EMDII;Electronic Money Directive 2"
+        "abbr": "Directive 2009/110/EC,E-Money Directive II,E-Money Directive2,E-Money DirectiveII,EMD 2,EMD II,EMD2,EMDII,Electronic Money Directive 2"
     },
     {
         "name": "EBA Regulation",
@@ -420,15 +420,15 @@
     },
     {
         "name": "Electronic Identification and Trust Services Regulation (eIDAS Regulation)",
-        "abbr": "910/2014;Electronic Identification and Trust Services;Electronic Identification and Trust Services Regulation;Regulation (EU) No 910/2014;eIDAS"
+        "abbr": "910/2014,Electronic Identification and Trust Services,Electronic Identification and Trust Services Regulation,Regulation (EU) No 910/2014,eIDAS"
     },
     {
         "name": "Energy Taxation Directive (ETD)",
-        "abbr": "(2003/96/EC);ETD;Energy Taxation;Energy Taxation Directive"
+        "abbr": "(2003/96/EC),ETD,Energy Taxation,Energy Taxation Directive"
     },
     {
         "name": "Environmental and Energy State Aid Guidelines (EEAG)",
-        "abbr": "EEAG;Environmental and Energy State Aid Guidelines"
+        "abbr": "EEAG,Environmental and Energy State Aid Guidelines"
     },
     {
         "name": "ePrivacy Directive",
@@ -436,11 +436,11 @@
     },
     {
         "name": "ePrivacy Regulation",
-        "abbr": "Directive 2002/58/EC;Regulation of the European Parliament and of the Council concerning the respect for private life and the protection of personal data in electronic communications and repealing Directive 2002/58/EC (Regulation on Privacy and Electronic Communications)"
+        "abbr": "Directive 2002/58/EC,Regulation of the European Parliament and of the Council concerning the respect for private life and the protection of personal data in electronic communications and repealing Directive 2002/58/EC (Regulation on Privacy and Electronic Communications)"
     },
     {
         "name": "ESA Regulation",
-        "abbr": "Regulation (EU) No 1095/2010;Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC"
+        "abbr": "Regulation (EU) No 1095/2010,Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC"
     },
     {
         "name": "EU Audit Regulations",
@@ -452,15 +452,15 @@
     },
     {
         "name": "EU Benchmark Regulation",
-        "abbr": "2016/1011;Regulation (EU) 2016/1011"
+        "abbr": "2016/1011,Regulation (EU) 2016/1011"
     },
     {
         "name": "EU Cyber Sanctions",
-        "abbr": "2019/796;Council Regulation (EU) 2019/796"
+        "abbr": "2019/796,Council Regulation (EU) 2019/796"
     },
     {
         "name": "EU Emissions Trading System (EU ETS)",
-        "abbr": "Directive 2003/87/EC;ETS;EU ETS;EU Emissions Trading System;Emissions Trading System;European Emissions Trading System;European Union  Emissions Trading System"
+        "abbr": "Directive 2003/87/EC,ETS,EU ETS,EU Emissions Trading System,Emissions Trading System,European Emissions Trading System,European Union  Emissions Trading System"
     },
     {
         "name": "EU Financial Sanctions",
@@ -468,7 +468,7 @@
     },
     {
         "name": "EU Green Bond Standard (EU GBS)",
-        "abbr": "EU GBS;EU Green Bond Standard;European Green Bond Standard;European Union Green Bond Standard;GBS;Green Bond Standard"
+        "abbr": "EU GBS,EU Green Bond Standard,European Green Bond Standard,European Union Green Bond Standard,GBS,Green Bond Standard"
     },
     {
         "name": "EU Sanctions List",
@@ -480,31 +480,31 @@
     },
     {
         "name": "European Climate Law",
-        "abbr": "ECL;Regulation (EU) 2018/1999"
+        "abbr": "ECL,Regulation (EU) 2018/1999"
     },
     {
         "name": "European Long-Term Investment Fund Regulation (ELTIF)",
-        "abbr": "Regulation (EU) 2015/760;Regulation (EU) 2015/760 of the European Parliament and of the Council of 29 April 2015 on European long-term investment funds"
+        "abbr": "Regulation (EU) 2015/760,Regulation (EU) 2015/760 of the European Parliament and of the Council of 29 April 2015 on European long-term investment funds"
     },
     {
         "name": "European Market Infrastructure Regulation (EMIR)",
-        "abbr": "648/2012;EMIR;European Market Infrastructure Regulation;Regulation (EU) No 648/2012"
+        "abbr": "648/2012,EMIR,European Market Infrastructure Regulation,Regulation (EU) No 648/2012"
     },
     {
         "name": "European Securities and Markets Authority Regulation (ESMA Regulation)",
-        "abbr": "1095/2010;ESMA;ESMA Regulation;European Securities and Markets Authority Regulation;Regulation (EU) No 1095/2010"
+        "abbr": "1095/2010,ESMA,ESMA Regulation,European Securities and Markets Authority Regulation,Regulation (EU) No 1095/2010"
     },
     {
         "name": "European Social Entrepreneurship Fund (EuSEF)",
-        "abbr": "Regulation (EU) No 346/2013;Regulation (EU) No 346/2013 of the European Parliament and of the Council of 17 April 2013 on European social entrepreneurship funds Text with EEA relevance"
+        "abbr": "Regulation (EU) No 346/2013,Regulation (EU) No 346/2013 of the European Parliament and of the Council of 17 April 2013 on European social entrepreneurship funds Text with EEA relevance"
     },
     {
         "name": "European Systemic Risk Board Regulation (ESRBR)",
-        "abbr": "ESRB;ESRB Regulation;ESRBR;European Systemic Risk Board Regulation;Regulation (EU) No 1092/2010;Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24 November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board"
+        "abbr": "ESRB,ESRB Regulation,ESRBR,European Systemic Risk Board Regulation,Regulation (EU) No 1092/2010,Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24 November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board"
     },
     {
         "name": "European Union Agency for Network and Information Security (ENISA)",
-        "abbr": "ENISA;European Union Agency for Network and Information Security"
+        "abbr": "ENISA,European Union Agency for Network and Information Security"
     },
     {
         "name": "European Union Financial Sanctions",
@@ -512,31 +512,31 @@
     },
     {
         "name": "European Venture Capital Fund Regulation (EuVECA)",
-        "abbr": "Regulation (EU) No 345/2013;Regulation (EU) No 345/2013 of the European Parliament and of the Council of 17 April 2013 on European venture capital funds Text with EEA relevance"
+        "abbr": "Regulation (EU) No 345/2013,Regulation (EU) No 345/2013 of the European Parliament and of the Council of 17 April 2013 on European venture capital funds Text with EEA relevance"
     },
     {
         "name": "Financial Collateral Directive",
-        "abbr": "Directive 2002/47/EC;Directive 2002/47/EC of the European Parliament and of the Council of 6 June 2002 on financial collateral arrangements"
+        "abbr": "Directive 2002/47/EC,Directive 2002/47/EC of the European Parliament and of the Council of 6 June 2002 on financial collateral arrangements"
     },
     {
         "name": "Financial Conglomerates Directive (FICOD)",
-        "abbr": "FICOD;Financial Conglomerates Directive"
+        "abbr": "FICOD,Financial Conglomerates Directive"
     },
     {
         "name": "Funds Transfer Directive",
-        "abbr": "Directive (EU) 2015/849;Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC"
+        "abbr": "Directive (EU) 2015/849,Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC"
     },
     {
         "name": "General Data Protection Regulation (GDPR)",
-        "abbr": "2016/679;GDPR;General Data Protection Regulation;Regulation (EU) 2016/679"
+        "abbr": "2016/679,GDPR,General Data Protection Regulation,Regulation (EU) 2016/679"
     },
     {
         "name": "Insurance Distribution Directive (IDD)",
-        "abbr": "Directive (EU) 2016/97;Directive (EU) 2016/97 of the European Parliament and of the Council of 20 January 2016 on insurance distribution (recast);IDD;Insurance Distribution Directive"
+        "abbr": "Directive (EU) 2016/97,Directive (EU) 2016/97 of the European Parliament and of the Council of 20 January 2016 on insurance distribution (recast),IDD,Insurance Distribution Directive"
     },
     {
         "name": "Interchange Fee Regulation",
-        "abbr": "2015/751;Regulation (EU) 2015/751"
+        "abbr": "2015/751,Regulation (EU) 2015/751"
     },
     {
         "name": "Law Enforcement Directive",
@@ -552,31 +552,31 @@
     },
     {
         "name": "Markets in Crypto-assets (MICA)",
-        "abbr": "MICA;MICA;Markets in Crypto Assets;Markets in Crypto-Assets;Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on Markets in Crypto-assets, and amending Directive (EU) 2019/1937;Regulation on Markets in Crypto Assets (MiCA)"
+        "abbr": "MICA,MICA,Markets in Crypto Assets,Markets in Crypto-Assets,Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on Markets in Crypto-assets, and amending Directive (EU) 2019/1937,Regulation on Markets in Crypto Assets (MiCA)"
     },
     {
         "name": "Markets in Financial Instruments Directive (MiFID)",
-        "abbr": "2004/39/EC;Directive 2004/39/EC;MIFID;Markets in Financial Instruments Directive"
+        "abbr": "2004/39/EC,Directive 2004/39/EC,MIFID,Markets in Financial Instruments Directive"
     },
     {
         "name": "Money Laundering Directive 2005",
-        "abbr": "Directive 2005/60/EC;Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing"
+        "abbr": "Directive 2005/60/EC,Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing"
     },
     {
         "name": "Money Market Fund Regulation (MMFR)",
-        "abbr": "2017/1131;MMF;MMFR;Money Market Funds (MMFs) Regulation;Money Market Funds Regulation;Regulation (EU) 2017/1131"
+        "abbr": "2017/1131,MMF,MMFR,Money Market Funds (MMFs) Regulation,Money Market Funds Regulation,Regulation (EU) 2017/1131"
     },
     {
         "name": "Mortgage Credit Directive (MCD)",
-        "abbr": "Directive 2014/17/EU;MCD;Mortgage Credit Directive"
+        "abbr": "Directive 2014/17/EU,MCD,Mortgage Credit Directive"
     },
     {
         "name": "Network and Information Security Directive (NISD)",
-        "abbr": "Directive (EU) 2016/1148;EU 2016/1148;NIS;NIS Directive;NISD;Network and Information Security Directive;Security of Networks and Information Systems Directive"
+        "abbr": "Directive (EU) 2016/1148,EU 2016/1148,NIS,NIS Directive,NISD,Network and Information Security Directive,Security of Networks and Information Systems Directive"
     },
     {
         "name": "Non-Financial Reporting Directive (NFRD)",
-        "abbr": "Directive 2014/95/EU;Directive 2014/95/EU of the European Parliament and of the Council of 22 October 2014 amending Directive 2013/34/EU as regards disclosure of non-financial and diversity information by certain large undertakings and groups Text with EEA relevance;NFRD;Non Financial Reporting Directive;Non-Financial Reporting Directive"
+        "abbr": "Directive 2014/95/EU,Directive 2014/95/EU of the European Parliament and of the Council of 22 October 2014 amending Directive 2013/34/EU as regards disclosure of non-financial and diversity information by certain large undertakings and groups Text with EEA relevance,NFRD,Non Financial Reporting Directive,Non-Financial Reporting Directive"
     },
     {
         "name": "Occupational Pensions Fund Directive",
@@ -584,11 +584,11 @@
     },
     {
         "name": "Oversight Requirements for Systemically Important Payment Systems",
-        "abbr": "(EU) No 795/2014;Oversight Requirements for SIPs;Regulation of the European Central Bank (EU) No 795/2014;Regulation of the European Central Bank (EU) No 795/2014 of 3 July 2014 on oversight requirements for systemically important payment systems (ECB/2014/28)"
+        "abbr": "(EU) No 795/2014,Oversight Requirements for SIPs,Regulation of the European Central Bank (EU) No 795/2014,Regulation of the European Central Bank (EU) No 795/2014 of 3 July 2014 on oversight requirements for systemically important payment systems (ECB/2014/28)"
     },
     {
         "name": "Packaged Retail and Insurance-based Investment Products (PRIIPs)",
-        "abbr": "1286/2014;PRIIPs;Packaged Retail and Insurance based Investment Products;Packaged Retail and Insurance-based Investment Products;Regulation (EU) No 1286/2014"
+        "abbr": "1286/2014,PRIIPs,Packaged Retail and Insurance based Investment Products,Packaged Retail and Insurance-based Investment Products,Regulation (EU) No 1286/2014"
     },
     {
         "name": "Packaged Retail Investment and Insurance-Based Investment Products (PRIIPs)",
@@ -596,11 +596,11 @@
     },
     {
         "name": "Payment Services Directive (PSD)",
-        "abbr": "2007/64/EC;Directive 2007/64/EC;PSD;PSD1;Payment Services Directive"
+        "abbr": "2007/64/EC,Directive 2007/64/EC,PSD,PSD1,Payment Services Directive"
     },
     {
         "name": "Payment Services Directive 2 (PSD2)",
-        "abbr": "2015/2366;Directive (EU) 2015/2366;PSD II;PSD2;PSDII;Payment Services Directive 2;Payment Services Directive II;Payment Services Directive2;Payment Services DirectiveII"
+        "abbr": "2015/2366,Directive (EU) 2015/2366,PSD II,PSD2,PSDII,Payment Services Directive 2,Payment Services Directive II,Payment Services Directive2,Payment Services DirectiveII"
     },
     {
         "name": "Proposed  Pilot regime for market infrastructures based on distributed ledger technology",
@@ -612,7 +612,7 @@
     },
     {
         "name": "Prospectus Regulation (PR)",
-        "abbr": "PR;Prospectus Regulation;Regulation (EU) 2017/1129"
+        "abbr": "PR,Prospectus Regulation,Regulation (EU) 2017/1129"
     },
     {
         "name": "Regulation (EU) No 833/2014 of 31 July 2014 concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
@@ -620,7 +620,7 @@
     },
     {
         "name": "Regulation of the ECB on the Collection of Granular Credit and Credit Risk Data",
-        "abbr": "ECB/2016/13;Regulation (EU) 2016/867;Regulation (EU) 2016/867 of the European Central Bank of 18 May 2016 on the collection of granular credit and credit risk data (ECB/2016/13)"
+        "abbr": "ECB/2016/13,Regulation (EU) 2016/867,Regulation (EU) 2016/867 of the European Central Bank of 18 May 2016 on the collection of granular credit and credit risk data (ECB/2016/13)"
     },
     {
         "name": "Regulation on Privacy and Electronic Communications",
@@ -628,11 +628,11 @@
     },
     {
         "name": "Regulation on Wholesale Energy Market Integrity and Transparency (REMIT)",
-        "abbr": "1227/2011;REMIT;Regulation (EU) No 1227/2011;Regulation on Wholesale Energy Market Integrity and Transparency"
+        "abbr": "1227/2011,REMIT,Regulation (EU) No 1227/2011,Regulation on Wholesale Energy Market Integrity and Transparency"
     },
     {
         "name": "Reporting of Supervisory financial information",
-        "abbr": "ECB/2015/13;Regulation (EU) 2015/534;Regulation (EU) 2015/534 of the European Central Bank of 17 March 2015 on reporting of supervisory financial information (ECB/2015/13)"
+        "abbr": "ECB/2015/13,Regulation (EU) 2015/534,Regulation (EU) 2015/534 of the European Central Bank of 17 March 2015 on reporting of supervisory financial information (ECB/2015/13)"
     },
     {
         "name": "Risk Finance Guidelines",
@@ -640,23 +640,23 @@
     },
     {
         "name": "Securities Financing Transactions Regulation (SFTR)",
-        "abbr": "2015/2365;Regulation (EU) 2015/2365;SFTR;Securities Financing Transactions Regulation"
+        "abbr": "2015/2365,Regulation (EU) 2015/2365,SFTR,Securities Financing Transactions Regulation"
     },
     {
         "name": "Securitisation Regulation",
-        "abbr": "2017/2024;Regulation 2017/2024"
+        "abbr": "2017/2024,Regulation 2017/2024"
     },
     {
         "name": "Settlement Finality Directive (SFD)",
-        "abbr": "Directive 98/26/EC;SFD;Settlement Finality Directive"
+        "abbr": "Directive 98/26/EC,SFD,Settlement Finality Directive"
     },
     {
         "name": "Shareholder Rights Directive (SRD)",
-        "abbr": "Directive 2007/36/EC;Directive 2007/36/EC of the European Parliament and of the Council of 11 July 2007 on the exercise of certain rights of shareholders in listed companies"
+        "abbr": "Directive 2007/36/EC,Directive 2007/36/EC of the European Parliament and of the Council of 11 July 2007 on the exercise of certain rights of shareholders in listed companies"
     },
     {
         "name": "Shareholder Rights Directive II (SRD II)",
-        "abbr": "Directive (EU) 2017/828;Directive (EU) 2017/828 of the European Parliament and of the Council of 17 May 2017 amending Directive 2007/36/EC as regards the encouragement of long-term shareholder engagement"
+        "abbr": "Directive (EU) 2017/828,Directive (EU) 2017/828 of the European Parliament and of the Council of 17 May 2017 amending Directive 2007/36/EC as regards the encouragement of long-term shareholder engagement"
     },
     {
         "name": "Shareholder's Rights Directive",
@@ -664,31 +664,31 @@
     },
     {
         "name": "Short Selling Regulation (SSR)",
-        "abbr": "236/2012;Regulation (EU) No 236/2012;SSR;Short Selling Regulation"
+        "abbr": "236/2012,Regulation (EU) No 236/2012,SSR,Short Selling Regulation"
     },
     {
         "name": "Single Euro Payments Area (SEPA)",
-        "abbr": "SEPA;Single Euro Payments Area"
+        "abbr": "SEPA,Single Euro Payments Area"
     },
     {
         "name": "Single Resolution Mechanism Regulation (SRMR)",
-        "abbr": "806/2014;Regulation No 806/2014;SRM;SRMR;Single Resolution Mechanism;Single Resolution Mechanism Regulation"
+        "abbr": "806/2014,Regulation No 806/2014,SRM,SRMR,Single Resolution Mechanism,Single Resolution Mechanism Regulation"
     },
     {
         "name": "Single Resolution Mechanism Regulation 2 (SRMR2)",
-        "abbr": "2019/877;Regulation (EU) 2019/877;SRM 2;SRM II;SRM2;SRMR 2;SRMR II;SRMR2;Single Resolution Mechanism 2;Single Resolution Mechanism II;Single Resolution Mechanism2;Single Resolution MechanismII"
+        "abbr": "2019/877,Regulation (EU) 2019/877,SRM 2,SRM II,SRM2,SRMR 2,SRMR II,SRMR2,Single Resolution Mechanism 2,Single Resolution Mechanism II,Single Resolution Mechanism2,Single Resolution MechanismII"
     },
     {
         "name": "Single Supervisory Mechanism (SSM)",
-        "abbr": "1024/2013;Regulation (EU) No 1024/2013;SSM;Single Supervisory Mechanism"
+        "abbr": "1024/2013,Regulation (EU) No 1024/2013,SSM,Single Supervisory Mechanism"
     },
     {
         "name": "Solvency II Directive",
-        "abbr": "2009/138/EC;Directive 2009/138/EC;Omnibus II Directive;Solvency II"
+        "abbr": "2009/138/EC,Directive 2009/138/EC,Omnibus II Directive,Solvency II"
     },
     {
         "name": "Supervisory Fee Regulation",
-        "abbr": "ECB/2014/41;Regulation (EU) No 1163/2014;Regulation (EU) No 1163/2014 of the European Central Bank of 22 October 2014 on supervisory fees (ECB/2014/41)"
+        "abbr": "ECB/2014/41,Regulation (EU) No 1163/2014,Regulation (EU) No 1163/2014 of the European Central Bank of 22 October 2014 on supervisory fees (ECB/2014/41)"
     },
     {
         "name": "Supervisory Reporting of Institutions",
@@ -696,19 +696,19 @@
     },
     {
         "name": "Supervisory Review and Evaluation Process (SREP)",
-        "abbr": "SREP;Supervisory Review and Evaluation Process"
+        "abbr": "SREP,Supervisory Review and Evaluation Process"
     },
     {
         "name": "Sustainable Finance Disclosure Regulation (SFDR)",
-        "abbr": "Regulation (EU) 2019/2088;Regulation (EU) 2019/2088 of the European Parliament and of the Council of 27 November 2019 on sustainability‐related disclosures in the financial services sector;SFDR;Sustainable Finance Disclosure Regulation"
+        "abbr": "Regulation (EU) 2019/2088,Regulation (EU) 2019/2088 of the European Parliament and of the Council of 27 November 2019 on sustainability‐related disclosures in the financial services sector,SFDR,Sustainable Finance Disclosure Regulation"
     },
     {
         "name": "Target2",
-        "abbr": "2014/533/EU;2014/533/EU: Decision of the European Central Bank of 13 August 2014 on the identification of TARGET2 as a systemically important payment system pursuant to Regulation (EU) No 795/2014 on oversight requirements for systemically important payment systems (ECB/2014/35);ECB/2014/35"
+        "abbr": "2014/533/EU,2014/533/EU: Decision of the European Central Bank of 13 August 2014 on the identification of TARGET2 as a systemically important payment system pursuant to Regulation (EU) No 795/2014 on oversight requirements for systemically important payment systems (ECB/2014/35),ECB/2014/35"
     },
     {
         "name": "Targeted longer-term refinancing operation II (TLTRO II)",
-        "abbr": "TLTRO II; TLTRO-III"
+        "abbr": "TLTRO II, TLTRO-III"
     },
     {
         "name": "Targeted longer-term refinancing operation III (TLTRO III)",
@@ -716,11 +716,11 @@
     },
     {
         "name": "Taxonomy Regulation (ESG)",
-        "abbr": "ESG;Taxonomy Regulation"
+        "abbr": "ESG,Taxonomy Regulation"
     },
     {
         "name": "Transparency Directive (TD)",
-        "abbr": "Directive 2004/109/EC;TD;Transparency Directive;Transparency Regulation"
+        "abbr": "Directive 2004/109/EC,TD,Transparency Directive,Transparency Regulation"
     },
     {
         "name": "Treaty on European Union (TEU)",
@@ -728,11 +728,11 @@
     },
     {
         "name": "Treaty on the Functioning of the European Union (TFEU)",
-        "abbr": "TFEU;Treaty of Rome"
+        "abbr": "TFEU,Treaty of Rome"
     },
     {
         "name": "Undertakings for Collective Investment in Transferable Securities (UCITS)",
-        "abbr": "UCITS;Undertakings for Collective Investment In Transferable Securities"
+        "abbr": "UCITS,Undertakings for Collective Investment In Transferable Securities"
     },
     {
         "name": "Whistleblowers Directive",
@@ -740,23 +740,23 @@
     },
     {
         "name": "Winding-up Directive",
-        "abbr": "Directive 2001/24/EC;Directive 2001/24/EC of the European Parliament and of the Council of 4 April 2001 on the reorganisation and winding up of credit institutions;Winding Up Directive"
+        "abbr": "Directive 2001/24/EC,Directive 2001/24/EC of the European Parliament and of the Council of 4 April 2001 on the reorganisation and winding up of credit institutions,Winding Up Directive"
     },
     {
         "name": "Wire Transfer Regulation",
-        "abbr": "Regulation (EU) 2015/847;Regulation (EU) 2015/847 of the European Parliament and of the Council of 20 May 2015 on information accompanying transfers of funds and repealing Regulation (EC) No 1781/2006;WTR"
+        "abbr": "Regulation (EU) 2015/847,Regulation (EU) 2015/847 of the European Parliament and of the Council of 20 May 2015 on information accompanying transfers of funds and repealing Regulation (EC) No 1781/2006,WTR"
     },
     {
         "name": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance",
-        "abbr": "AMLO;Anti-Money Laundering and Counter-Terrorist Financing (Financial Institutions) Ordinance"
+        "abbr": "AMLO,Anti-Money Laundering and Counter-Terrorist Financing (Financial Institutions) Ordinance"
     },
     {
         "name": "Banking Capital Rules",
-        "abbr": "Cap. 628B;LAC Rules"
+        "abbr": "Cap. 628B,LAC Rules"
     },
     {
         "name": "Banking Liquidity (Amendment) Rules 2019",
-        "abbr": "BLAR;Banking Liquidity Amendment Rules;Banking Liquidity Amendment Rules 2019"
+        "abbr": "BLAR,Banking Liquidity Amendment Rules,Banking Liquidity Amendment Rules 2019"
     },
     {
         "name": "Banking Ordinance",
@@ -804,11 +804,11 @@
     },
     {
         "name": "BCBS / IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives",
-        "abbr": "BCBS / IOSCO Margin Requirements for Non-Centrally Cleared Derivatives;BCBS/IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives;Framework for Margin Requirements for Non-Centrally Cleared Derivatives;The Basel Committee on Banking Supervision, Board of the International Organization of Securities Commissions, Margin Requirements for Non-Centrally Cleared Derivatives"
+        "abbr": "BCBS / IOSCO Margin Requirements for Non-Centrally Cleared Derivatives,BCBS/IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives,Framework for Margin Requirements for Non-Centrally Cleared Derivatives,The Basel Committee on Banking Supervision, Board of the International Organization of Securities Commissions, Margin Requirements for Non-Centrally Cleared Derivatives"
     },
     {
         "name": "BCBS Principles for effective risk data aggregation and risk reporting",
-        "abbr": "BCBS 239;Principles for effective risk data aggregation and risk reporting"
+        "abbr": "BCBS 239,Principles for effective risk data aggregation and risk reporting"
     },
     {
         "name": "Common Reporting Standards",
@@ -840,7 +840,7 @@
     },
     {
         "name": "G20 Communique June 2019 (Fukoka)",
-        "abbr": "G20 2019 Fukoka;G20 Communique June 2019"
+        "abbr": "G20 2019 Fukoka,G20 Communique June 2019"
     },
     {
         "name": "G20 Communique November 2010 (Seoul)",
@@ -880,7 +880,7 @@
     },
     {
         "name": "Interbank Offered Rate Transition",
-        "abbr": "IBOR Transition;Transition from IBOR;Transition from LIBOR"
+        "abbr": "IBOR Transition,Transition from IBOR,Transition from LIBOR"
     },
     {
         "name": "Interest Rate Risk  in the Banking Book (IRRBB)",
@@ -912,11 +912,11 @@
     },
     {
         "name": "IOSCO Principles on Client Identification and Beneficial Ownership for the Securities Industry of 2004",
-        "abbr": "IOSCO Principles on Client Identification and Beneficial Ownership for the Securities Industry;Principles on Client Identification and Beneficial Ownership for the Securities"
+        "abbr": "IOSCO Principles on Client Identification and Beneficial Ownership for the Securities Industry,Principles on Client Identification and Beneficial Ownership for the Securities"
     },
     {
         "name": "ISSA Financial Crime Compliance Principles for Securities Custody and Settlement",
-        "abbr": "Financial Crime Compliance Principles for Securities Custody and Settlement;Financial Crime Compliance Principles forSecurities Custody and Settlement"
+        "abbr": "Financial Crime Compliance Principles for Securities Custody and Settlement,Financial Crime Compliance Principles forSecurities Custody and Settlement"
     },
     {
         "name": "Key Attributes of Effective Resolution Regimes for Financial Institutions",
@@ -988,7 +988,7 @@
     },
     {
         "name": "Electronic Money Regulations 2011",
-        "abbr": "EMR;EMR 2011;EMRs"
+        "abbr": "EMR,EMR 2011,EMRs"
     },
     {
         "name": "Banking Act",
@@ -1012,7 +1012,7 @@
     },
     {
         "name": "Financial Supervision Act",
-        "abbr": "WFT;Wet op het financieel toezicht"
+        "abbr": "WFT,Wet op het financieel toezicht"
     },
     {
         "name": "Law for the Prevention of Money Laundering and Terrorist Financing",
@@ -1036,7 +1036,7 @@
     },
     {
         "name": "Monetary Authority of Singapore Control and Resolution of Financial Institutions Regulations 2013",
-        "abbr": "G.N. No. S 235/2013;Monetary Authority of Singapore (Control and Resolution of Financial Institutions) Regulations 2013"
+        "abbr": "G.N. No. S 235/2013,Monetary Authority of Singapore (Control and Resolution of Financial Institutions) Regulations 2013"
     },
     {
         "name": "Securities and Futures Act (SFA)",
@@ -1056,7 +1056,7 @@
     },
     {
         "name": "Financial Market Infrastructure Act",
-        "abbr": "FMIA;Finanzmarktinfrastrukturgesetz;FinfraG"
+        "abbr": "FMIA,Finanzmarktinfrastrukturgesetz,FinfraG"
     },
     {
         "name": "FINMA Anti-Money Laundering Ordinance",
@@ -1084,7 +1084,7 @@
     },
     {
         "name": "Banking Reform Act",
-        "abbr": "Financial Services  Act 2013;Financial Services (Banking Reform) Act 2013"
+        "abbr": "Financial Services  Act 2013,Financial Services (Banking Reform) Act 2013"
     },
     {
         "name": "The Debt Respite Scheme (Breathing Space Moratorium and Mental Health Crisis Moratorium) (England and Wales) Regulations 2020",
@@ -1136,7 +1136,7 @@
     },
     {
         "name": "European Union Act 2018",
-        "abbr": "EU Withdrawal Act;European Union (Withdrawal) Act 2018;European Union Act;European Union Withdrawal Act;Withdrawal Act"
+        "abbr": "EU Withdrawal Act,European Union (Withdrawal) Act 2018,European Union Act,European Union Withdrawal Act,Withdrawal Act"
     },
     {
         "name": "FCA Handbook",
@@ -1144,19 +1144,19 @@
     },
     {
         "name": "Finance Act 2006",
-        "abbr": "FA 2006;Finance Act"
+        "abbr": "FA 2006,Finance Act"
     },
     {
         "name": "Finance Act 2008",
-        "abbr": "FA 2008;Finance Act"
+        "abbr": "FA 2008,Finance Act"
     },
     {
         "name": "Finance Act 2011",
-        "abbr": "FA 2011;Finance Act"
+        "abbr": "FA 2011,Finance Act"
     },
     {
         "name": "Finance Act 2018",
-        "abbr": "FA 2018;Finance Act"
+        "abbr": "FA 2018,Finance Act"
     },
     {
         "name": "Financial Guidance and Claims Act 2018",
@@ -1176,7 +1176,7 @@
     },
     {
         "name": "Financial Services and Markets Act 2000",
-        "abbr": "FSMA;Financial Services and Markets Act"
+        "abbr": "FSMA,Financial Services and Markets Act"
     },
     {
         "name": "Financial Services Compensation Scheme",
@@ -1184,7 +1184,7 @@
     },
     {
         "name": "Freedom of Information Act UK",
-        "abbr": "FOIA;Freedom of Information Act;Freedom of Information Act 2000"
+        "abbr": "FOIA,Freedom of Information Act,Freedom of Information Act 2000"
     },
     {
         "name": "Funds Transfer Regulation (FTR)",
@@ -1212,7 +1212,7 @@
     },
     {
         "name": "International Securities Market Rulebook (ISM)",
-        "abbr": "ISM;ISM Rulebook;International Securities Market Rulebook"
+        "abbr": "ISM,ISM Rulebook,International Securities Market Rulebook"
     },
     {
         "name": "International Tax Compliance Regulations 2015",
@@ -1240,11 +1240,11 @@
     },
     {
         "name": "Network and Information Systems Regulations 2018",
-        "abbr": "NIS Regulation;NIS Regulation 2018;Network and Information Systems Regulation"
+        "abbr": "NIS Regulation,NIS Regulation 2018,Network and Information Systems Regulation"
     },
     {
         "name": "Operational Continuity in Resolution (OCIR)",
-        "abbr": "OCIR;Operational Continuity in Resolution"
+        "abbr": "OCIR,Operational Continuity in Resolution"
     },
     {
         "name": "Payment Accounts Directive",
@@ -1252,7 +1252,7 @@
     },
     {
         "name": "Payment Services Regulations 2017",
-        "abbr": "PSR;Payment Services Regulations"
+        "abbr": "PSR,Payment Services Regulations"
     },
     {
         "name": "Policing and Crime Act 2017",
@@ -1260,7 +1260,7 @@
     },
     {
         "name": "Proceeds of Crime Act 2002 (POCA)",
-        "abbr": "POCA;Proceeds of Crime Act"
+        "abbr": "POCA,Proceeds of Crime Act"
     },
     {
         "name": "Prudential Regulation Authority Rulebook",
@@ -1268,11 +1268,11 @@
     },
     {
         "name": "Regulated Activities Order (RAO)",
-        "abbr": "RAO;Regulated Activities Order"
+        "abbr": "RAO,Regulated Activities Order"
     },
     {
         "name": "Resolvability Assessment Framework (RAF)",
-        "abbr": "RAF;Resolvability Assessment Framework"
+        "abbr": "RAF,Resolvability Assessment Framework"
     },
     {
         "name": "Retirement Outcomes Review",
@@ -1292,7 +1292,7 @@
     },
     {
         "name": "Senior Managers and Certification Regime",
-        "abbr": "SM&CR;SMCR"
+        "abbr": "SM&CR,SMCR"
     },
     {
         "name": "Serious Crime Act 2015",
@@ -1304,7 +1304,7 @@
     },
     {
         "name": "Sterling Overnight Index Average (SONIA)",
-        "abbr": "SONIA;Sterling Overnight Index Average"
+        "abbr": "SONIA,Sterling Overnight Index Average"
     },
     {
         "name": "Terrorism Act 2000",
@@ -1316,7 +1316,7 @@
     },
     {
         "name": "Terrorist Asset-Freezing Act of 2010",
-        "abbr": "Temporary Provisions Act;Terrorist Asset-Freezing (Temporary Provisions) Act;Terrorist Asset-Freezing (Temporary Provisions) Act 2010;Terrorist Asset-Freezing Act 2010"
+        "abbr": "Temporary Provisions Act,Terrorist Asset-Freezing (Temporary Provisions) Act,Terrorist Asset-Freezing (Temporary Provisions) Act 2010,Terrorist Asset-Freezing Act 2010"
     },
     {
         "name": "The Data Protection (Charges and Information) Regulations 2018",
@@ -1328,15 +1328,15 @@
     },
     {
         "name": "The Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017",
-        "abbr": "MLR;MLR 2017;MLRs;Money Laundering, Terrorist Financing and Transfer of Funds Regulation"
+        "abbr": "MLR,MLR 2017,MLRs,Money Laundering, Terrorist Financing and Transfer of Funds Regulation"
     },
     {
         "name": "Uncleared Margin Rules (UMR)",
-        "abbr": "UMR;Uncleared Margin Rules"
+        "abbr": "UMR,Uncleared Margin Rules"
     },
     {
         "name": "United Kingdom Financial Sanctions List",
-        "abbr": "UK Financial Sanctions;UK Financial Sanctions List"
+        "abbr": "UK Financial Sanctions,UK Financial Sanctions List"
     },
     {
         "name": "Anti-Money Laundering Act of 2020 (AMLA)",
@@ -1352,7 +1352,7 @@
     },
     {
         "name": "Bank Secrecy Act",
-        "abbr": "BSA;Bank Secrecy Act of 1970"
+        "abbr": "BSA,Bank Secrecy Act of 1970"
     },
     {
         "name": "Code of Federal Regulations",
@@ -1368,7 +1368,7 @@
     },
     {
         "name": "Consolidated Audit Trail Rule 613",
-        "abbr": "CAT;Consolidated Audit Trail;Consolidated Audit Trail - CAT (SEC rule 613);SEC Rule 613"
+        "abbr": "CAT,Consolidated Audit Trail,Consolidated Audit Trail - CAT (SEC rule 613),SEC Rule 613"
     },
     {
         "name": "Consumer Leasing Act",
@@ -1376,7 +1376,7 @@
     },
     {
         "name": "Cybersecurity and Financial System Resilience Act of 2019",
-        "abbr": "H.R.4458;H.R.4458 — 116th Congress (2019-2020)"
+        "abbr": "H.R.4458,H.R.4458 — 116th Congress (2019-2020)"
     },
     {
         "name": "Economic Growth and Regulatory Paperwork Reduction Act of 1996",
@@ -1412,11 +1412,11 @@
     },
     {
         "name": "Securities Act of 1933",
-        "abbr": "1933 Act;Federal Securities Act;Truth in Securities"
+        "abbr": "1933 Act,Federal Securities Act,Truth in Securities"
     },
     {
         "name": "Securities Exchange Act",
-        "abbr": "1934 Act;34 Act;Exchange Act;SEA;SEA of 1934"
+        "abbr": "1934 Act,34 Act,Exchange Act,SEA,SEA of 1934"
     },
     {
         "name": "Securities Investor Protection Act of 1970 (SIPA)",
@@ -1424,7 +1424,7 @@
     },
     {
         "name": "The Dodd-Frank Wall Street Reform and Consumer Protection Act",
-        "abbr": "Dodd–Frank;Dodd–Frank Act"
+        "abbr": "Dodd–Frank,Dodd–Frank Act"
     },
     {
         "name": "Truth in Lending Act",
@@ -1436,7 +1436,7 @@
     },
     {
         "name": "Manager-In-Charge",
-        "abbr": "Manager in charge (MIC);Manager-In-Charge (\"MIC\");MIC regime"
+        "abbr": "Manager in charge (MIC),Manager-In-Charge (\"MIC\"),MIC regime"
     },
     {
         "name": "Multiannual Financial Framework (MFF)",
@@ -1567,7 +1567,7 @@
         "abbr": "FUTURE of Artificial Intelligence Act of 2020"
     },
     {
-        "name": "Bank Recovery and Resolution Act (BaSAG; Sanierungs- und Abwicklungsgesetz)",
+        "name": "Bank Recovery and Resolution Act (BaSAG, Sanierungs- und Abwicklungsgesetz)",
         "abbr": "BaSAG,Bank Recovery and Resolution Act"
     },
     {
@@ -1604,7 +1604,7 @@
         "abbr": "Sarbanes–Oxley Act"
     },
     {
-        "name": "Savings Banks Act (SpG; Sparkassengesetz)",
+        "name": "Savings Banks Act (SpG, Sparkassengesetz)",
         "abbr": "Savings Banks Act,SpG,Sparkassengesetz"
     },
     {
