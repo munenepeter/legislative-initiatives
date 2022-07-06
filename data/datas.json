@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Alternative Investment Fund Managers Directive ",
         "abbr": "2011/61/EU,AIFMD"
     },
@@ -1586,7 +1587,6 @@
         "name": "Republic Act No. 8799, The Securities Regulation Code - (Philippines)",
         "abbr": "Securities Regulation Code,8799,Republic Act No. 8799"
     },
- 
     {
         "name": "RFA - Regulatory Flexibility Act",
         "abbr": "RFA,Regulatory Flexibility Act"
@@ -1659,7 +1659,7 @@
         "name": "Consolidated Law on Banking (TUB) - Legislative Decree 385/1993 – [Italy]",
         "abbr": "Legislative Decree 385/1993,385/1993,Consolidated Law on Banking,TUB"
     },
-     {
+    {
         "name": "UK General Data Protection Regulation (UK GDPR)",
         "abbr": "UK GDPR,UK General Data Protection,Data Protection Act 2018,National Security and Investment Act,National Security & Investment Act,UK Data Protection"
     },
@@ -1668,20 +1668,23 @@
         "abbr": "Thailand Cybersecurity, Act B.E. 2564 (2021),B.E. 2564"
     },
     {
-       "name": "Law Number 8 of 2010 concerning the Prevention and Eradication of Money Laundering Money (Undang-Undang Nomor 8 Tahun 2010 tentang Pencegahan dan Pemberantasan TPPU (UU TPPU))",
-       "abbr": "Law Number 8 of 2010 concerning the Prevention and Eradication of Money Laundering Money (Undang-Undang Nomor 8 Tahun 2010 tentang Pencegahan dan Pemberantasan TPPU (UU TPPU)),UU TPPU,Law Number 8 of 2010"
+        "name": "Law Number 8 of 2010 concerning the Prevention and Eradication of Money Laundering Money (Undang-Undang Nomor 8 Tahun 2010 tentang Pencegahan dan Pemberantasan TPPU (UU TPPU))",
+        "abbr": "Law Number 8 of 2010 concerning the Prevention and Eradication of Money Laundering Money (Undang-Undang Nomor 8 Tahun 2010 tentang Pencegahan dan Pemberantasan TPPU (UU TPPU)),UU TPPU,Law Number 8 of 2010"
     },
     {
         "name": "Treasury Laws Amendment (2021 Measures No. 1) Act 2021",
         "abbr": "Treasury Laws Amendment (2021 Measures No. 1) Act 2021, 2021 Measures No. 1 Act 2021 ,2021 Measures No. 1,Treasury Laws Amendment"
-     },
-     {
-         "name": "Anti-Money Laundering Act of 2020",
-         "abbr": "Anti-Money Laundering Act of 2020"
-      },
-        {
-            "name": "Credit Bureau Act 2016",
-            "abbr": "Credit Bureau Act 2016"
-        }
-
+    },
+    {
+        "name": "Anti-Money Laundering Act of 2020",
+        "abbr": "Anti-Money Laundering Act of 2020"
+    },
+    {
+        "name": "Credit Bureau Act 2016",
+        "abbr": "Credit Bureau Act 2016"
+    },
+    {
+        "name": "Legislative and Regulatory Reform Act 2006",
+        "abbr": "LRRA"
+    }
 ]
