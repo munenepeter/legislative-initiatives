@@ -15,7 +15,30 @@
     <meta name="author" content="Peter Munene">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css"
         integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous">
+        <style>
+            #alert {
+                background: rgb(170, 22, 22);
+                box-shadow: 0 0 0 0 rgb(173, 68, 68);
+                animation: pulse-purple 2s infinite;
+            }
     
+            @keyframes pulse-purple {
+                0% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(173, 68, 68, 0.7);
+                }
+    
+                70% {
+                    transform: scale(1);
+                    box-shadow: 0 0 0 10px rgba(142, 68, 173, 0);
+                }
+    
+                100% {
+                    transform: scale(0.95);
+                    box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
+                }
+            }
+        </style>     
 </head>
 
 <body>
@@ -63,6 +86,14 @@
         <br>
 
         <div id="main" class="container">
+            <div id="alert" class="alert alert-dismissible alert-danger text-center">
+
+                <strong>Heads Up!!! &nbsp;</strong> This instance does not encompass alll the LI's (as of <u>22.03.2022</u>).
+                please use the original site and the provided sheets!
+    
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="alert">X</button> -->
+            </div>
+            <br>
 
             <form v-cloak>
                 <div class="bar">
