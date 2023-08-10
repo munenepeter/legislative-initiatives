@@ -97,9 +97,9 @@
           <span class="text-xs font-medium text-orange-600 dark:text-blue-500">a few seconds ago</span>
         </div>
         <!-- LIs -->
-        <div class="mt-4 grid grid-cols-3 gap-1">
+        <div id="li-grid-items" class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-1 lg:grid-cols-4">
           <div v-for="LI in filteredData"
-            class="max-h-28 bg-gray-50 shadow-sm border border-rose-100 hover:border-rose-300 p-2 rounded-md hover:bg-purple-50 hover:shadow-md">
+            class="li-item max-h-28 overflow-x-auto shadow-sm border border-rose-100 hover:border-rose-300 p-2 rounded-md hover:bg-purple-50 hover:shadow-md">
             <div class="flex justify-between">
               <div class="text">
                 <p id='LI' class="text-sm text-purple-900 font-semibold">{{LI.name}}</p>
@@ -136,16 +136,17 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   <script>
+
+
     new Vue({
       el: '#main',
-
       data: {
         searchString: "",
         name: '',
         abbr: '',
-        //the array of all the LI's  
         lis: [],
-        msg: "Your Copied LI will appear here"
+        msg: "Your Copied LI will appear here",
+        itemsCount: 0
       },
       mounted() {
         this.GetData();
@@ -158,9 +159,16 @@
               this.lis = data;
             });
         },
-
+        adjustGridColumns() {
+          const gridContainer = document.getElementById('li-grid-items');
+          if (this.itemsCount <= 2) {
+             gridContainer.classList.remove('grid-cols-1', 'md:grid-cols-3', 'gap-1', 'lg:grid-cols-4');
+            gridContainer.classList.add('grid-cols-1', 'md:grid-cols-2', 'gap-1', 'lg:grid-cols-2');
+          } else {
+            gridContainer.classList.add('grid-cols-1', 'md:grid-cols-3', 'gap-1', 'lg:grid-cols-4');
+          }
+        },
         LICopy: function (event, LItoCopy) {
-
           const notificationToast = document.getElementById('notificationToast');
           const selection = window.getSelection();
           const range = document.createRange();
@@ -187,8 +195,6 @@
         }
       },
       computed: {
-        // A computed property that holds only those data that match the searchString.
-
         filteredData: function () {
           var search_array = this.lis,
             searchString = this.searchString;
@@ -205,12 +211,36 @@
               return item;
             }
           })
-
-          // Return an array with the filtered data.
+          this.itemsCount = search_array.length;
+          console.log(this.itemsCount);
+          this.adjustGridColumns(); 
           return search_array;
         }
       }
     });
+
+
+
+
+
+
+
+
+
+
+
+
+    Vue.filter('truncate', function (text, length, suffix) {
+      if (text.length > length) {
+        return text.substring(0, length) + suffix;
+      } else {
+        return text;
+      }
+    });
+
+
+
+
   </script>
 </body>
 
