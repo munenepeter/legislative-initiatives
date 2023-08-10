@@ -122,7 +122,7 @@
             },
             methods: {
                 GetData() {
-                    fetch("https://munenepeter.github.io/my-file-tracker/data/datas.json")
+                    fetch("https://raw.githubusercontent.com/munenepeter/parser/main/static/lis-names.json")
                         .then(response => response.json())
                         .then((data) => {
                             this.lis = data;
