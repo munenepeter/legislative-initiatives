@@ -99,7 +99,7 @@
         <!-- LIs -->
         <div id="li-grid-items" class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-1 lg:grid-cols-4">
           <div v-for="LI in filteredData"
-            class="li-item max-h-28 overflow-x-auto shadow-sm border border-rose-100 hover:border-rose-300 p-2 rounded-md hover:bg-purple-50 hover:shadow-md">
+            class="li-item max-h-32 overflow-x-auto shadow-sm border border-rose-100 hover:border-rose-300 p-2 rounded-md hover:bg-purple-50 hover:shadow-md">
             <div class="flex justify-between">
               <div class="text">
                 <p id='LI' class="text-sm text-purple-900 font-semibold">{{LI.name}}</p>
@@ -161,11 +161,13 @@
         },
         adjustGridColumns() {
           const gridContainer = document.getElementById('li-grid-items');
-          if (this.itemsCount <= 2) {
-             gridContainer.classList.remove('grid-cols-1', 'md:grid-cols-3', 'gap-1', 'lg:grid-cols-4');
+          if (this.itemsCount <= 2 || this.itemsCount == 1) {
+            gridContainer.classList.add('grid-cols-1', 'md:grid-cols-1', 'gap-1', 'lg:grid-cols-2');
+          } else if (this.itemsCount <= 4) {
             gridContainer.classList.add('grid-cols-1', 'md:grid-cols-2', 'gap-1', 'lg:grid-cols-2');
           } else {
             gridContainer.classList.add('grid-cols-1', 'md:grid-cols-3', 'gap-1', 'lg:grid-cols-4');
+
           }
         },
         LICopy: function (event, LItoCopy) {
@@ -213,7 +215,7 @@
           })
           this.itemsCount = search_array.length;
           console.log(this.itemsCount);
-          this.adjustGridColumns(); 
+          this.adjustGridColumns();
           return search_array;
         }
       }
