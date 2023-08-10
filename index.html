@@ -2,68 +2,213 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="title" content="Legislative initiatives">
-    <meta name="description" content="A Simple way to search for Legislative initiatives">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search | Legislative </title>
-    <link rel="shortcut icon" type="image/svg" href="svg/Document.svg" />
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="author" content="Peter Munene">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.5/tailwind.min.css">
+  <meta charset="UTF-8">
+  <meta name="title" content="Legislative initiatives">
+  <meta name="description" content="A Simple way to search for Legislative initiatives">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search | Legislative initiatives</title>
+  <link rel="shortcut icon" type="image/svg" href="assets/favicon.svg" />
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="author" content="Peter Munene">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
+
+  <style>
+    #alert {
+      background: rgb(170, 22, 22);
+      box-shadow: 0 0 0 0 rgb(173, 68, 68);
+      animation: pulse-purple 2s infinite;
+    }
+
+    @keyframes pulse-purple {
+      0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(173, 68, 68, 0.7);
+      }
+
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(142, 68, 173, 0);
+      }
+
+      100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
+      }
+    }
+  </style>
+
 
 </head>
 
 <body>
+  <nav class="bg-white dark:bg-gray-900">
+    <div class="max-w-screen-xl px-4 py-4 mx-auto text-center lg:py-6 lg:px-6">
+      <p class="text-2xl font-medium text-gray-900 dark:text-white">Legislative initiatives</p>
+    </div>
+  </nav>
+  <!-- <div id="banner" tabindex="-1"
+    class="flex fixed z-50 gap-8 justify-between items-start py-3 px-4 w-full bg-gray-50 border border-b border-gray-200 sm:items-center dark:border-gray-700 lg:py-4 dark:bg-gray-800">
+    <p class="text-center text-sm font-light text-gray-500 dark:text-gray-400"><strong>Heads Up!!! &nbsp;&nbsp;</strong>As this tool
+      is no longer being maintained as of <i>23rd Mar 2022</i>, We
+      have a new & updated one
+      <a href="https://dev.chungu.co.ke/projects/jwg/leg-initia">here</a>
+    </p>
+    <button data-collapse-toggle="banner" type="button"
+      class="flex items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white">
+      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+  </div> -->
 
-  
-   
 
-    
-<!-- Component Code -->
 
-<div class="relative h-screen w-full flex flex-col md:flex-row items-center justify-center md:justify-start text-center md:text-left bg-cover bg-center" style="background-image:url(https://iflr.com/Media/images/iflr/1-abstract-2/Fintech%204.jpg);">
-    <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
-    
-    <main class="px-8 sm:px-24 z-10 md:w-2/3">
-          <div class="">
-            <p class="m-3 mb-3 text-gray-200 sm:mt-5 sm:max-w-xl md:mt-5 text-xs font-medium">
-               To view Legislative Initiatives please click the big pink button
-            </p>
-            <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-white sm:leading-none md:text-5xl">
-             Welcome to
-            
-              <span class="text-indigo-600">Legislative</span>
-            </h2>
-            <div class="mt-5 sm:mt-8 sm:flex justify-start">
-              <div class="rounded-md shadow">
-                <a href="Legislative-initiatives.html" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-light rounded-full text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-md md:px-10">
-                 
-                  <span> Legislative Initiatives</span>
-                </a>
+  <div class="container my-2">
+
+    <br>
+    <div class="flex justify-around">
+      <h4 class="text-center  ">Legislative initiatives</h4>
+      <a href="versions.html" class=" ">Version 2022:--</a>
+    </div>
+    <br>
+
+    <div id="main" class="container">
+
+      <form style="max-width: 46rem;" v-cloak>
+        <label for="default-search"
+          class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+            </svg>
+          </div>
+          <input v-model="searchString" type="search" id="default-search"
+            class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Type in to search Legislative initiative" required>
+        </div>
+      </form>
+
+
+
+
+
+
+      <form v-cloak>
+        
+        <div id="notificationToast" style="margin-left:820px;min-width: 150px;" class="toast" role="alert"
+          aria-live="assertive" aria-atomic="true">
+          <div class="toast-header d-flex justify-content-between">
+            <strong class="me-auto">{{msg}}</strong>
+            <small>Now</small>
+          </div>
+        </div>
+        <div class="row">
+          <div v-for="LI in filteredData" class="col" style="min-width:250px;">
+            <div class="card border-danger mt-4">
+              <div v-bind:href="LI.name" id='LI' class="card-header">{{LI.name}}</div>
+              <div class="card-body">
+                <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
               </div>
-              
+              <button @click="LICopy($event, LI.name)" title="Click to copy" type="button"
+                class="btn btn-outline-danger">
+                Copy LI</button>
             </div>
           </div>
-        </main>
-        
-      <!--   date section   -->
-        
-   
-      
-      </div>
-    
+        </div>
+      </form>
+    </div>
   </div>
-  
-  
-  
-  
-    
 
-    <script src="main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script>
+    new Vue({
+      el: '#main',
+
+      data: {
+        searchString: "",
+        name: '',
+        abbr: '',
+        //the array of all the LI's  
+        lis: [],
+        msg: "Your Copied LI will appear here"
+      },
+      mounted() {
+        this.GetData();
+      },
+      methods: {
+        GetData() {
+          fetch("https://raw.githubusercontent.com/munenepeter/parser/main/static/lis-names.json")
+            .then(response => response.json())
+            .then((data) => {
+              this.lis = data;
+            });
+        },
+
+        LICopy: function (event, LItoCopy) {
+
+          const notificationToast = document.getElementById('notificationToast');
+          const selection = window.getSelection();
+          const range = document.createRange();
+
+          range.selectNodeContents(document.getElementById('LI'));
+          selection.removeAllRanges();
+          selection.addRange(range);
+
+          const successful = document.execCommand('copy');
+
+          if (successful) {
+            this.msg = 'Copied!' + ' ' + LItoCopy;
+            notificationToast.classList.add("show");
+          } else {
+            this.msg = 'Unable to copy!';
+            notificationToast.classList.add("show");
+          }
+
+          setTimeout(function () {
+            notificationToast.classList.remove("show");
+          }, 3000);
+
+          window.getSelection().removeAllRanges()
+        }
+      },
+      computed: {
+        // A computed property that holds only those data that match the searchString.
+
+        filteredData: function () {
+          var search_array = this.lis,
+            searchString = this.searchString;
+
+          if (!searchString) {
+            return search_array;
+          }
+
+          searchString = searchString.trim().toLowerCase();
+
+          search_array = search_array.filter(item => {
+            if (item.abbr.toLowerCase().indexOf(searchString) !== -1 || item.name
+              .toLowerCase().indexOf(searchString) !== -1) {
+              return item;
+            }
+          })
+
+          // Return an array with the filtered data.
+          return search_array;
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>
