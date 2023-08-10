@@ -17,8 +17,13 @@
   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
   <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 </head>
+<style>
+  .li-item{
+     scrollbar-width: none;
+  }
+</style>
 
-<body>
+<body class="bg-white">
   <nav
     class="px-2 sm:px-4 py-2 fixed w-full  top-0 left-0 backdrop-blur-3xl shadow-sm bg-gradient-to-r from-rose-50 to-white">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
@@ -73,8 +78,8 @@
     <section class="flex justify-between px-2 mx-auto max-w-screen-2xl ">
       <article class="mx-auto w-full max-w-4xl">
         <div class="my-4 flex justify-between">
-          <p class="mr-2">Legislative initiatives</p>
-          <a href="versions.html" class=" ">Version 2022:--</a>
+          <p class="mr-2 text-orange-600">Legislative initiatives</p>
+          <a href="versions.html" class="text-orange-400">Version 2022:--</a>
         </div>
 
         <form v-cloak class="relative bg-white flex-auto border-none rounded-xl ">
@@ -115,16 +120,8 @@
             </div>
           </div>
         </div>
-
-
-
       </article>
     </section>
-
-
-
-
-
   </main>
   <footer class="border-t bg-gray-50 left-50 w-full  bottom-0"
     style="position: fixed;  left: 50%; transform: translate(-50%, 0);">
