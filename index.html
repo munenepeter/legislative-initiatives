@@ -19,90 +19,121 @@
 </head>
 
 <body>
-  <nav class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 py-4 mx-auto text-center lg:py-6 lg:px-6">
-      <p class="text-2xl font-medium text-gray-900 dark:text-white">Legislative initiatives</p>
+  <nav
+    class="px-2 sm:px-4 py-2 fixed w-full  top-0 left-0 backdrop-blur-3xl shadow-sm bg-gradient-to-r from-rose-50 to-white">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <div class="flex items-center space-x-2">
+        <div class="h-8 w-8 bg-orange-200 rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-full h-full p-1 text-orange-700">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <span style="font-size: 10px;" class="text-purple-900">Hotline 24/7</span>
+          <span class="text-sm text-purple-900 font-semibold">developers@chungu.co.ke</span>
+        </div>
+
+      </div>
+      <button type="button"
+        class="inline-flex items-center p-2 text-sm text-purple-900 rounded-lg md:hidden hover:bg-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 dark:text-purple-400 dark:hover:bg-purple-700 dark:focus:ring-purple-600"
+        aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+        <ul class="flex flex-col p-2 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-semibold ">
+          <li>
+            <a href="/" class="block py-2 pl-3 pr-4 text-purple-700 md:hover:text-orange-700 md:p-0 ">Legislative
+              initiatives</a>
+          </li>
+          <li>
+            <a href="https://dev.chungu.co.ke/projects"
+              class="block py-2 pl-3 pr-4  md:p-0 text-purple-700 md:hover:text-orange-700">Projects</a>
+          </li>
+
+          <li>
+            <a href="https://dev.chungu.co.ke/"
+              class="block py-2 pl-3 pr-4 text-purple-700 md:hover:text-orange-700 md:p-0 ">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-purple-700 md:hover:text-orange-700 md:p-0 ">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-  <!-- <div id="banner" tabindex="-1"
-    class="flex fixed z-50 gap-8 justify-between items-start py-3 px-4 w-full bg-gray-50 border border-b border-gray-200 sm:items-center dark:border-gray-700 lg:py-4 dark:bg-gray-800">
-    <p class="text-center text-sm font-light text-gray-500 dark:text-gray-400"><strong>Heads Up!!! &nbsp;&nbsp;</strong>As this tool
-      is no longer being maintained as of <i>23rd Mar 2022</i>, We
-      have a new & updated one
-      <a href="https://dev.chungu.co.ke/projects/jwg/leg-initia">here</a>
-    </p>
-    <button data-collapse-toggle="banner" type="button"
-      class="flex items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white">
-      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd"
-          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-          clip-rule="evenodd"></path>
-      </svg>
-    </button>
-  </div> -->
+  <main id="main" class="pt-4 pb-10 lg:pt-8 mt-10">
+    <section class="flex justify-between px-2 mx-auto max-w-screen-2xl ">
+      <article class="mx-auto w-full max-w-4xl">
+        <div class="my-4 flex justify-between">
+          <p class="mr-2">Legislative initiatives</p>
+          <a href="versions.html" class=" ">Version 2022:--</a>
+        </div>
 
-
-
-  <div class="container my-2">
-
-    <br>
-    <div class="flex justify-around">
-      <h4 class="text-center  ">Legislative initiatives</h4>
-      <a href="versions.html" class=" ">Version 2022:--</a>
-    </div>
-    <br>
-
-    <div id="main" class="container">
-
-      <form style="max-width: 46rem;" v-cloak>
-        <label for="default-search"
-          class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-        <div class="relative">
-          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-              fill="none" viewBox="0 0 20 20">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-            </svg>
-          </div>
+        <form v-cloak class="relative bg-white flex-auto border-none rounded-xl ">
           <input v-model="searchString" type="search" id="default-search"
-            class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Type in to search Legislative initiative" required>
+            placeholder="Search all Legislative initiatives..."
+            class="block w-full rounded-xl bg-transparent  pr-4 pl-10 text-base text-slate-900 transition placeholder:text-slate-400 focus:outline-none focus:ring-0"
+            required>
+          <svg viewBox="0 0 20 20" aria-hidden="true"
+            class="pointer-events-none absolute inset-y-0 left-0 h-full ml-2 w-5 fill-slate-500 transition">
+            <path
+              d="M16.72 17.78a.75.75 0 1 0 1.06-1.06l-1.06 1.06ZM9 14.5A5.5 5.5 0 0 1 3.5 9H2a7 7 0 0 0 7 7v-1.5ZM3.5 9A5.5 5.5 0 0 1 9 3.5V2a7 7 0 0 0-7 7h1.5ZM9 3.5A5.5 5.5 0 0 1 14.5 9H16a7 7 0 0 0-7-7v1.5Zm3.89 10.45 3.83 3.83 1.06-1.06-3.83-3.83-1.06 1.06ZM14.5 9a5.48 5.48 0 0 1-1.61 3.89l1.06 1.06A6.98 6.98 0 0 0 16 9h-1.5Zm-1.61 3.89A5.48 5.48 0 0 1 9 14.5V16a6.98 6.98 0 0 0 4.95-2.05l-1.06-1.06Z">
+            </path>
+          </svg>
+        </form>
+        <!-- Notification -->
+        <div style="margin-left:720px;" id="notificationToast"
+          class="hidden my-2 w-full max-w-xs p-2 text-gray-900 bg-gray-50 shadow-sm border border-rose-100 rounded-lg shadow dark:bg-gray-800 dark:text-gray-300"
+          role="alert">
+          <div class="text-sm font-semibold text-gray-900 dark:text-white">{{msg}}</div>
+          <span class="text-xs font-medium text-orange-600 dark:text-blue-500">a few seconds ago</span>
         </div>
-      </form>
-
-
-
-
-
-
-      <form v-cloak>
-        
-        <div id="notificationToast" style="margin-left:820px;min-width: 150px;" class="toast" role="alert"
-          aria-live="assertive" aria-atomic="true">
-          <div class="toast-header d-flex justify-content-between">
-            <strong class="me-auto">{{msg}}</strong>
-            <small>Now</small>
-          </div>
-        </div>
-        <div class="row">
-          <div v-for="LI in filteredData" class="col" style="min-width:250px;">
-            <div class="card border-danger mt-4">
-              <div v-bind:href="LI.name" id='LI' class="card-header">{{LI.name}}</div>
-              <div class="card-body">
-                <p class="card-text"><span class="text-muted text-center">{{ LI.abbr }}</span></p>
+        <!-- LIs -->
+        <div class="mt-4 grid grid-cols-3 gap-1">
+          <div v-for="LI in filteredData"
+            class="max-h-28 bg-gray-50 shadow-sm border border-rose-100 hover:border-rose-300 p-2 rounded-md hover:bg-purple-50 hover:shadow-md">
+            <div class="flex justify-between">
+              <div class="text">
+                <p id='LI' class="text-sm text-purple-900 font-semibold">{{LI.name}}</p>
+                <p class="text-xs text-gray-500">{{ LI.abbr }}</p>
               </div>
-              <button @click="LICopy($event, LI.name)" title="Click to copy" type="button"
-                class="btn btn-outline-danger">
-                Copy LI</button>
+              <button @click="LICopy($event, LI.name)" title="Click to copy" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-4 h-4 text-orange-600">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z" />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
-      </form>
+
+
+
+      </article>
+    </section>
+
+
+
+
+
+  </main>
+  <footer class="border-t bg-gray-50 left-50 w-full  bottom-0"
+    style="position: fixed;  left: 50%; transform: translate(-50%, 0);">
+    <div class="text-gray-900 text-sm text-center">
+      <div class="my-2 text-center">&copy; 2020 -
+        <?= date('Y') ?> All rights reserved | Chungu Developers
+      </div>
     </div>
-  </div>
-
-
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   <script>
     new Vue({
@@ -142,14 +173,14 @@
 
           if (successful) {
             this.msg = 'Copied!' + ' ' + LItoCopy;
-            notificationToast.classList.add("show");
+            notificationToast.classList.remove("hidden");
           } else {
             this.msg = 'Unable to copy!';
-            notificationToast.classList.add("show");
+            notificationToast.classList.remove("hidden");
           }
 
           setTimeout(function () {
-            notificationToast.classList.remove("show");
+            notificationToast.classList.add("hidden");
           }, 3000);
 
           window.getSelection().removeAllRanges()
