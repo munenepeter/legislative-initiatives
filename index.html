@@ -147,6 +147,16 @@
       },
       mounted() {
         this.GetData();
+
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('searchString')) {
+          this.searchString = urlParams.get('searchString');
+        }
+      },
+      watch: {
+        searchString(newValue) {
+          this.updateURL();
+        }
       },
       methods: {
         GetData() {
@@ -155,6 +165,11 @@
             .then((data) => {
               this.lis = data;
             });
+        },
+         updateURL() {
+          const url = new URL(window.location);
+          url.searchParams.set('searchString', this.searchString);
+          window.history.pushState({}, '', url);
         },
         adjustGridColumns() {
           const gridContainer = document.getElementById('li-grid-items');
@@ -211,7 +226,7 @@
             }
           })
           this.itemsCount = search_array.length;
-          console.log(this.itemsCount);
+         // console.log(this.itemsCount);
           this.adjustGridColumns();
           return search_array;
         }
